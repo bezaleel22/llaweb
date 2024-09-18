@@ -1,3 +1,38 @@
+<script>
+// @ts-nocheck
+  import { onMount } from "svelte";
+
+  onMount(() => {
+    document.addEventListener("DOMContentLoaded", function () {
+      var areaOfInterest = document.getElementsByName("sponsor_interest")[0];
+      var amountField = document.querySelector(
+        '.input-field.col-lg-12 textarea[name="sponsor_message"]'
+      );
+      var button = document.querySelector(
+        ".input-field.col-lg-12 button.qu_btn"
+      );
+      console.log(areaOfInterest);
+      areaOfInterest.addEventListener("change", function () {
+        console.log(areaOfInterest.value);
+        if (areaOfInterest.value === "Donation") {
+          amountField.setAttribute("placeholder", "Enter Donation Amount");
+          amountField.setAttribute("type", "number");
+          button.textContent = "Donate Now";
+          console.log("donation");
+        } else {
+          amountField.setAttribute(
+            "placeholder",
+            "Tell Us How You Would Like to Contribute..."
+          );
+          amountField.setAttribute("type", "text");
+          button.textContent = "Connect with Us";
+          console.log("connect");
+        }
+      });
+    });
+  });
+</script>
+
 <div class="container largeContainer">
   <div class="row">
     <div class="col-xl-7">

@@ -85,6 +85,7 @@
         bullets: { enable: false },
       },
     });
+  
   var revapi = jQuery("#rev_slider_3")
     .show()
     .revolution({

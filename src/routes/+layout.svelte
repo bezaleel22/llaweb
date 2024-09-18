@@ -27,7 +27,7 @@
         <span>I</span>
         <span>G</span>
         <span>H</span>
-        <span>T</span> <br />
+        <span>T</span>
         <span>H</span>
         <span>O</span>
         <span>U</span>
@@ -42,14 +42,5 @@
   <main class="app">
     <slot />
   </main>
-
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-
   <Footer />
 {/if}

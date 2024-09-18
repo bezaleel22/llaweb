@@ -5,7 +5,7 @@
   export let src;
   export let title;
   export let description;
-  export let buttonText = "";
+  export let buttonText = "Enroll Now";
   export let buttonLink = "";
 </script>
 
@@ -67,7 +67,9 @@
     data-paddingbottom="[0,0,0,0]"
     data-paddingleft="[0,0,0,20]"
   >
-    {title}
+    <div class="w-50">
+      {title}
+    </div>
   </div>
   <div
     class="tp-caption ws_nowrap"
@@ -92,7 +94,7 @@
     data-paddingbottom="[0,0,0,0]"
     data-paddingleft="[0,0,0,20]"
   >
-    {description}
+    <strong>{description}</strong>
   </div>
 
   <div
