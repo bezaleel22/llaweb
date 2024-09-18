@@ -1,7 +1,11 @@
-<script lang="ts">
+<script>
+// @ts-nocheck
+
+  import { browser } from "$app/environment";
   import Slide from "$lib/components/Slide.svelte";
+  import { waitVisible } from "$lib/utils";
   import { onMount } from "svelte";
-  let el: any;
+
   const slidesData = [
     {
       dataIndex: "rs-3051",
@@ -33,7 +37,37 @@
     },
   ];
 
-  onMount(() => console.log(el));
+  onMount(() => {
+    let revapi = jQuery("#rev_slider_3")
+      .show()
+      .revolution({
+        delay: 6000,
+        responsiveLevels: [1200, 1140, 778, 480],
+        gridwidth: [1220, 920, 700, 380],
+        jsFileLocation: "js/",
+        sliderLayout: "fullscreen",
+        navigation: {
+          keyboardNavigation: "off",
+          keyboard_direction: "horizontal",
+          mouseScrollNavigation: "off",
+          onHoverStop: "off",
+          bullets: {
+            enable: true,
+            style: "metis",
+            hide_onmobile: true,
+            hide_under: 700,
+            h_align: "right",
+            v_align: "bottom",
+            h_offset: 180,
+            hide_onleave: false,
+            v_offset: 60,
+            space: 15,
+            tmp: '<span class="tp-bullet-img-wrap"><span class="tp-bullet-image"></span></span>',
+          },
+          arrows: { enable: false },
+        },
+      });
+  });
 </script>
 
 <div class="rev_slider_wrapper">
@@ -43,7 +77,7 @@
     style="display:none;"
     data-version="5.4.1"
   >
-    <ul>
+    <ul class="w-100 h-100">
       {#each slidesData as slide}
         <Slide
           dataIndex={slide.dataIndex}
@@ -56,16 +90,4 @@
   </div>
 </div>
 
-<svelte:head>
-  <script src="js/extensions/revolution.extension.actions.min.js"></script>
-  <script src="js/extensions/revolution.extension.carousel.min.js"></script>
-  <script src="js/extensions/revolution.extension.kenburn.min.js"></script>
-  <script src="js/extensions/revolution.extension.migration.min.js"></script>
-  <script src="js/extensions/revolution.extension.navigation.min.js"></script>
-  <script src="js/extensions/revolution.extension.parallax.min.js"></script>
-  <script src="js/extensions/revolution.extension.slideanims.min.js"></script>
-  <script src="js/extensions/revolution.extension.video.min.js"></script>
-  <script src="js/theme.js"></script>
-  <script src="js/extensions/revolution.extension.layeranimation.min.js">
-  </script>
-</svelte:head>
+

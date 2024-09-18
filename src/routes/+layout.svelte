@@ -1,4 +1,5 @@
 <script>
+  import { browser } from "$app/environment";
   import "$lib/assets";
   import Footer from "$lib/components/Footer.svelte";
   import Header from "$lib/components/Header.svelte";
@@ -13,14 +14,17 @@
       document.addEventListener("DOMContentLoaded", () => ($loading = false));
     }
   });
+
+  $: if (browser) console.log({ $loading });
 </script>
 
 <svelte:head>
   <title>SvelteKit</title>
 </svelte:head>
 
+<!-- <ScriptLoader /> -->
 {#if $loading}
-  <div class="preloader clock text-center" out:fade={{ duration: 1000 }}>
+  <div class="preloader clock text-center" out:fade={{ duration: 800 }}>
     <div class="queraLoader" out:fade={{ duration: 500 }}>
       <div class="loaderO">
         <span>L</span>
@@ -36,11 +40,11 @@
       </div>
     </div>
   </div>
-{:else}
-  <Header />
-
-  <main class="app">
-    <slot />
-  </main>
-  <Footer />
 {/if}
+
+<Header />
+<main class="app">
+  <slot />
+</main>
+
+<Footer />

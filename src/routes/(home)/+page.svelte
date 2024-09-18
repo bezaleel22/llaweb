@@ -14,49 +14,49 @@
   <Slider />
 </section>
 
-<section class="aboutSection03">
-  <About />
-</section>
+  <section class="aboutSection03">
+    <About />
+  </section>
 
-<section class="serviceSection03">
-  <Services />
-</section>
+  <section class="serviceSection03">
+    <Services />
+  </section>
 
-<section id="sponsor" class="chooseSection chooseSection02">
-  <Sponsorship />
-</section>
+  <section id="sponsor" class="chooseSection chooseSection02">
+    <Sponsorship />
+  </section>
 
-<section class="appoinmentSection03">
-  <Partnership />
-</section>
+  <section class="appoinmentSection03">
+    <Partnership />
+  </section>
 
-<section class="teamSection02">
-  <div class="container largeContainer">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <div class="subTitle">
-          <span class="bleft"></span>
-          Meet Our Exceptional Instructors
-          <span class="bright"></span>
+  <section class="teamSection02">
+    <div class="container largeContainer">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div class="subTitle">
+            <span class="bleft"></span>
+            Meet Our Exceptional Instructors
+            <span class="bright"></span>
+          </div>
+          <h2 class="secTitle">Expert<span>Team</span></h2>
         </div>
-        <h2 class="secTitle">Expert<span>Team</span></h2>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="ctaSection">
-  <Call2action />
-</section>
+  <section class="ctaSection">
+    <Call2action />
+  </section>
 
-<section class="chooseSection03">
-  <Whyus />
-</section>
+  <section class="chooseSection03">
+    <Whyus />
+  </section>
 
-<section class="portfolioSection03">
-  <Potfolio />
-</section>
+  <section class="portfolioSection03">
+    <Potfolio />
+  </section>
 
-<section class="blogSectiont03">
-  <Blogs />
-</section>
+  <section class="blogSectiont03">
+    <Blogs />
+  </section>

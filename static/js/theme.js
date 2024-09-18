@@ -115,6 +115,7 @@
         arrows: { enable: false },
       },
     });
+  
   if (folioSlider01.length > 0) {
     var folioSlider01_obj = folioSlider01.owlCarousel({
       margin: 0,
@@ -402,12 +403,12 @@
     $(this).parent("li.menu-item-has-children").toggleClass("active");
     $(this).siblings("ul.sub-menu").slideToggle();
   });
-  $(window).on("load", function () {
-    var preload = $(".preloader");
-    if (preload.length > 0) {
-      preload.delay(800).fadeOut("slow");
-    }
-  });
+  // $(window).on("load", function () {
+  //   var preload = $(".preloader");
+  //   if (preload.length > 0) {
+  //     preload.delay(800).fadeOut("slow");
+  //   }
+  // });
   if (select.length > 0) {
     select.niceSelect();
     select.parent().addClass("select-area");
