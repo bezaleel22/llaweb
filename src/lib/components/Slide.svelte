@@ -6,7 +6,7 @@
   export let title;
   export let description;
   export let buttonText = "Enroll Now";
-  export let buttonLink = "";
+  export let buttonLink = "/admission";
 </script>
 
 <li
@@ -94,7 +94,7 @@
     data-paddingbottom="[0,0,0,0]"
     data-paddingleft="[0,0,0,20]"
   >
-    <strong>{description}</strong>
+    <span class="font-weight-bold">{description}</span>
   </div>
 
   <div
