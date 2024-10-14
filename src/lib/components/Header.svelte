@@ -8,8 +8,8 @@
           </div>
           <nav class="mainMenu">
             <ul>
-              <li class=" current-menu-item"><a href="index.php">Home</a></li>
-              <li><a href="admission.php">Admission</a></li>
+              <li class=" current-menu-item"><a href="/">Home</a></li>
+              <li><a href="admission">Admission</a></li>
               <!-- <li class="menu-item-has-children">
                 <a href="javascript:void(0);">Academics</a>
                 <ul class="sub-menu">
@@ -20,7 +20,7 @@
                 </ul>
               </li> -->
 
-              <li><a href="portfolio.php">Porfolio</a></li>
+              <li><a href="portfolio">Porfolio</a></li>
               <!-- <li class="menu-item-has-children">
                 <a href="javascript:void(0);">Porfolio</a>
                 <ul class="sub-menu">
@@ -29,7 +29,7 @@
                   <li><a href="">Young Inventors Club</a></li>
                 </ul>
               </li> -->
-              <li><a href="about.php">About Us</a></li>
+              <li><a href="about">About Us</a></li>
               <!-- <li class="menu-item-has-children">
                 <a href="javascript:void(0);">About Us</a>
                 <ul class="sub-menu">
@@ -38,7 +38,7 @@
                 </ul>
               </li> -->
 
-              <li><a href="contact.php">Contact</a></li>
+              <li><a href="contact">Contact</a></li>
               <!-- <li><a href="lla_news.php">Blog</a></li> -->
             </ul>
           </nav>
@@ -97,8 +97,8 @@
     </div>
     <div class="SMABody">
       <ul>
-        <li class=" current-menu-item"><a href="index.php">Home</a></li>
-        <li><a href="admission.php">Admission</a></li>
+        <li class=" current-menu-item"><a href="index">Home</a></li>
+        <li><a href="admission">Admission</a></li>
         <!-- <li class="menu-item-has-children">
                 <a href="javascript:void(0);">Academics</a>
                 <ul class="sub-menu">
@@ -109,7 +109,7 @@
                 </ul>
               </li> -->
 
-        <li><a href="portfolio.php">Porfolio</a></li>
+        <li><a href="portfolio">Porfolio</a></li>
         <!-- <li class="menu-item-has-children">
                 <a href="javascript:void(0);">Porfolio</a>
                 <ul class="sub-menu">
@@ -118,7 +118,7 @@
                   <li><a href="">Young Inventors Club</a></li>
                 </ul>
               </li> -->
-        <li><a href="about.php">About Us</a></li>
+        <li><a href="about">About Us</a></li>
         <!-- <li class="menu-item-has-children">
                 <a href="javascript:void(0);">About Us</a>
                 <ul class="sub-menu">
@@ -127,7 +127,7 @@
                 </ul>
               </li> -->
 
-        <li><a href="contact.php">Contact</a></li>
+        <li><a href="contact">Contact</a></li>
         <!-- <li><a href="lla_news.php">Blog</a></li> -->
 
         <a
