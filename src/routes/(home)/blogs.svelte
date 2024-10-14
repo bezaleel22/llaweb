@@ -13,7 +13,8 @@
         <div class="blogContent">
           <div class="bmeta">
             <span
-              ><i class="twi-folder2"></i><a href="blog1.php">Develop</a></span
+              >
+              <i class="twi-folder2"></i><a href="blog1.php">Develop</a></span
             >|<span
               ><i class="twi-user2"></i><a href="blog1.php">David Smith</a
               ></span
@@ -30,6 +31,7 @@
         </div>
       </div>
     </div>
+
     <div class="col-lg-4 col-md-6">
       <div class="blogItem03 bborder">
         <div class="blogThumb">
@@ -46,13 +48,14 @@
             >
           </div>
           <h3>
-            <a href="blog2.php"
-              >The accounting department also keeps detailed records</a
+            <a href="blog/.php">
+              The accounting department also keeps detailed records</a
             >
           </h3>
         </div>
       </div>
     </div>
+
     <div class="col-lg-4 col-md-6">
       <div class="blogItem03">
         <div class="blogContent">
