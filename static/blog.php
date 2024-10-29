@@ -53,7 +53,6 @@ $pid = safe_decode($_GET["pid"]);
         <div class="container largeContainer">
             <div class="row">
 
-
                 <?php include 'cms/dbConfig.php';
                 $query = $db->query("SELECT * FROM images where category='1' GROUP BY groupid ORDER BY uploaded_on DESC");
                 if ($query->num_rows > 0) {

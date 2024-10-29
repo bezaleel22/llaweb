@@ -1,8 +1,10 @@
 <script>
   import { browser } from "$app/environment";
+  import { page } from "$app/stores";
   import "$lib/assets";
   import Footer from "$lib/components/Footer.svelte";
   import Header from "$lib/components/Header.svelte";
+  import PageHeader from "$lib/components/PageHeader.svelte";
 
   import { loading } from "$lib/stores";
   import { onMount } from "svelte";
@@ -15,7 +17,7 @@
     }
   });
 
-  $: if (browser) console.log({ $loading });
+ // $: if (browser) console.log({ $loading });
 </script>
 
 <svelte:head>
@@ -42,7 +44,12 @@
   </div>
 {/if}
 
-<Header />
+{#if $page.url.pathname === '/'}
+  <Header />
+{:else}
+  <PageHeader />
+{/if}
+
 <main class="app">
   <slot />
 </main>

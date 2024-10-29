@@ -10,7 +10,7 @@
             <div class="owl-item active" style="width: 313px;">
               <div class="folioItem03">
                 <div class="flThumb">
-                  <img loading="lazy" src="images/folio/1.avif" alt="" />
+                  <img loading="lazy" src="/images/folio/1.avif" alt="" />
                   <a href="single-folio.html">+</a>
                 </div>
                 <div class="folioContent">
@@ -26,7 +26,7 @@
             <div class="owl-item cloned" style="width: 313px;">
               <div class="folioItem03">
                 <div class="flThumb">
-                  <img loading="lazy" src="images/folio/2.avif" alt="" />
+                  <img loading="lazy" src="/images/folio/2.avif" alt="" />
                   <a href="single-folio.html">+</a>
                 </div>
                 <div class="folioContent">
@@ -42,7 +42,7 @@
             <div class="owl-item cloned" style="width: 313px;">
               <div class="folioItem03">
                 <div class="flThumb">
-                  <img loading="lazy" src="images/folio/3.avif" alt="" />
+                  <img loading="lazy" src="/images/folio/3.avif" alt="" />
                   <a href="single-folio.html">+</a>
                 </div>
                 <div class="folioContent">
@@ -58,7 +58,7 @@
             <div class="owl-item cloned" style="width: 313px;">
               <div class="folioItem03">
                 <div class="flThumb">
-                  <img loading="lazy" src="images/folio/4.avif" alt="" />
+                  <img loading="lazy" src="/images/folio/4.avif" alt="" />
                   <a href="single-folio.html">+</a>
                 </div>
                 <div class="folioContent">
@@ -74,7 +74,7 @@
             <div class="owl-item cloned" style="width: 313px;">
               <div class="folioItem03">
                 <div class="flThumb">
-                  <img loading="lazy" src="images/folio/5.avif" alt="" />
+                  <img loading="lazy" src="/images/folio/5.avif" alt="" />
                   <a href="single-folio.html">+</a>
                 </div>
                 <div class="folioContent">
@@ -90,7 +90,7 @@
             <div class="owl-item cloned" style="width: 313px;">
               <div class="folioItem03">
                 <div class="flThumb">
-                  <img loading="lazy" src="images/folio/6.avif" alt="" />
+                  <img loading="lazy" src="/images/folio/6.avif" alt="" />
                   <a href="single-folio.html">+</a>
                 </div>
                 <div class="folioContent">
@@ -111,7 +111,7 @@
     </div>
     <div class="col-lg-9 col-md-8">
       <div class="fThumb">
-        <img loading="lazy" src="images/home3/1.webp" alt="" />
+        <img loading="lazy" src="/images/home3/1.webp" alt="" />
         <a href="https://themewar.com/html/quera/folio1.html">View</a>
       </div>
     </div>

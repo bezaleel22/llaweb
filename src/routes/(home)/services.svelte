@@ -12,7 +12,7 @@
       <div class="icon_box_09 text-center">
         <div class="ib_box"><i class=" icon-local_1"></i></div>
         <div class="srThumb">
-          <img src="images/home3/s1.jpg" alt="" />
+          <img src="/images/home3/s1.jpg" alt="" />
         </div>
         <h3><a href="https://llacademy.ng/parent-dashboard">e-Portal</a></h3>
         <p>
@@ -25,7 +25,7 @@
       <div class="icon_box_09 text-center">
         <div class="ib_box"><i class="icon-local_3-1"></i></div>
         <div class="srThumb">
-          <img src="images/home3/s2.jpg" alt="" />
+          <img src="/images/home3/s2.jpg" alt="" />
         </div>
         <h3><a href="single-service.html">Admission</a></h3>
         <p>
@@ -38,7 +38,7 @@
       <div class="icon_box_09 text-center">
         <div class="ib_box"><i class="icon-local_1-1"></i></div>
         <div class="srThumb">
-          <img src="images/home3/s3.jpg" alt="" />
+          <img src="/images/home3/s3.jpg" alt="" />
         </div>
         <h3><a href="single-service.html">News & Events </a></h3>
         <p>

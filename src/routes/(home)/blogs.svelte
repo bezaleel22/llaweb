@@ -36,6 +36,17 @@
           <div class="blogThumb">
             <img src="images/blog/1.webp" alt="" />
           </div>
+<<<<<<< HEAD
+=======
+          <h3>
+            <a href="blog1.php"
+              >Accounting departments are usually responsible</a
+            >
+          </h3>
+        </div>
+        <div class="blogThumb">
+          <img src="/images/blog/1.webp" alt="" />
+>>>>>>> e715538f85aa07007725b5e29f709830bf4d443d
         </div>
       </div>
     {/each}
@@ -43,7 +54,7 @@
     <!-- <div class="col-lg-4 col-md-6">
       <div class="blogItem03 bborder">
         <div class="blogThumb">
-          <img src="images/blog/2.webp" alt="" />
+          <img src="/images/blog/2.webp" alt="" />
         </div>
         <div class="blogContent">
           <div class="bmeta">
@@ -80,7 +91,7 @@
           </h3>
         </div>
         <div class="blogThumb">
-          <img src="images/blog/3.webp" alt="" />
+          <img src="/images/blog/3.webp" alt="" />
         </div>
       </div>
     </div> -->

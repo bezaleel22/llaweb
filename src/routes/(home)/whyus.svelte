@@ -156,7 +156,7 @@
     </div>
     <div class="col-xl-6">
       <div class="chImage">
-        <img src="images/home3/3.webp" alt="" />
+        <img src="/images/home3/3.webp" alt="" />
       </div>
       <div class="chooseSlider owl-carousel owl-loaded owl-drag">
         <div class="owl-stage-outer">
@@ -166,7 +166,7 @@
           >
             <div class="owl-item cloned" style="width: 189px;">
               <div class="chsItem">
-                <img src="images/home3/3.png" alt="" />
+                <img src="/images/home3/3.png" alt="" />
                 <p>
                   Where we nurture and train the next generation by means of
                   world class education.
@@ -175,7 +175,7 @@
             </div>
             <div class="owl-item cloned" style="width: 189px;">
               <div class="chsItem">
-                <img src="images/home3/4.png" alt="" />
+                <img src="/images/home3/4.png" alt="" />
                 <p>
                   Where young minds are oriented, inspire, imbue and empowered
                   with productive principles and the fear of God.
@@ -184,13 +184,13 @@
             </div>
             <div class="owl-item cloned" style="width: 189px;">
               <div class="chsItem">
-                <img src="images/home3/4.png" alt="" />
+                <img src="/images/home3/4.png" alt="" />
                 <p>Where every child feel listened to, cared for and valued.</p>
               </div>
             </div>
             <div class="owl-item" style="width: 189px;">
               <div class="chsItem">
-                <img src="images/home3/4.png" alt="" />
+                <img src="/images/home3/4.png" alt="" />
                 <p>
                   where curiosity is sparked, talents are discovered, and
                   potential is unleashed.
@@ -199,7 +199,7 @@
             </div>
             <div class="owl-item cloned" style="width: 189px;">
               <div class="chsItem">
-                <img src="images/home3/4.png" alt="" />
+                <img src="/images/home3/4.png" alt="" />
                 <p>
                   where diversity is celebrated, and students are prepared to
                   embrace the challenges of a dynamic world.
@@ -208,7 +208,7 @@
             </div>
             <div class="owl-item cloned" style="width: 189px;">
               <div class="chsItem">
-                <img src="images/home3/4.png" alt="" />
+                <img src="/images/home3/4.png" alt="" />
                 <p>
                   Where academic excellence meets character development, our
                   school is a nurturing space where students grow
