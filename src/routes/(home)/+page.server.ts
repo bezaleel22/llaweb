@@ -5,9 +5,9 @@ type Home = {
     events: any[]
 }
 export const load: PageServerLoad = async function (event) {
-    const data = await request(event).Get<Home>('/home')
+    // const data = await request(event).Get<Home>('/home')
     // console.log(data)
     return {
-        blogs: data.blogs
+        blogs: []
     }
 }

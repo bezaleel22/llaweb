@@ -59,7 +59,7 @@
                   <li><a href="">Young Inventors Club</a></li>
                 </ul>
               </li> -->
-                <li><a href="blog">Blogs</a></li>
+                <!-- <li><a href="blog">Blogs</a></li> -->
                 <li><a href="about">About Us</a></li>
                 <!-- <li class="menu-item-has-children">
                 <a href="javascript:void(0);">About Us</a>

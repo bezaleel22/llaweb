@@ -773,7 +773,7 @@ header .menuToggler {
     z-index: -1;
     visibility: hidden;
     opacity: 0;
-    background: url(/images/bg/1.jpg) no-repeat center center/cover;
+    background: url(/images/bg/1.png) no-repeat center center/cover;
     transition: all ease 400ms;
     -moz-transition: all ease 400ms;
     -webkit-transition: all ease 400ms
