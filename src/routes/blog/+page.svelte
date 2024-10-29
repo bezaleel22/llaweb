@@ -1,6 +1,5 @@
 <script>
   import { blogs } from "$lib/data/blog";
-
 </script>
 
 <section class="page_banner blog_page_banner" style="">
@@ -98,7 +97,6 @@
                   value=""
                   type="search"
                   name="s"
-                  required=""
                 /><button
                   aria-label="Search"
                   class="wp-block-search__button has-icon wp-element-button"
