@@ -80,7 +80,7 @@
 
 <section
   class="page_banner"
-  style="background-image: url(images/bg/banner.jpg);"
+  style="background-image: url(/images/bg/banner.jpg);"
 >
   <div class="container largeContainer">
     <div class="row">
@@ -102,7 +102,7 @@
     <div class="row">
       <div class="col-lg-12">
         <div class="contetn_404 text-center">
-          <img src="images/404.png" alt={"404 Not Found"} />
+          <img src="/images/404.png" alt={"404 Not Found"} />
           <h3>Oops! That page can't be found.</h3>
           <p>
             Unfortunately, something went wrong and this page does not exist.

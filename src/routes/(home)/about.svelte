@@ -37,7 +37,7 @@
     </div>
     <div class="col-lg-6">
       <div class="absThumb">
-        <img src="images/home3/1.png" alt="" />
+        <img src="/images/home3/1.png" alt="" />
       </div>
     </div>
   </div>
