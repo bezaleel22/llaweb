@@ -21,7 +21,7 @@
 </script>
 
 <svelte:head>
-  <title>SvelteKit</title>
+  <title>Lighthouse Academy</title>
 </svelte:head>
 
 <!-- <ScriptLoader /> -->
