@@ -5,7 +5,7 @@ FROM node:lts-alpine as builder
 WORKDIR /app
 
 # BUILD WEBSITE
-COPY ./package*.json ./website/
+COPY ./package*.json .
 RUN npm install
 
 COPY . .
