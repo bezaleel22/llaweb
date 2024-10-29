@@ -1,57 +1,33 @@
 import { dev } from '$app/environment';
 import { env } from '$env/dynamic/private';
+import { parseAuthCookie } from '$lib/utils';
 import { error, type RequestEvent } from '@sveltejs/kit';
 
 export const setUserSession = async function (event: RequestEvent): Promise<RequestEvent> {
-    event.locals.token = event.cookies.get('auth_token') || '';
-    if (!event.locals.token) {
+    event.locals.XSRF = event.cookies.get('XSRF-TOKEN') || ''
+    event.locals.token = event.cookies.get('schoolify_session') || ''
+    // console.log(parseJwt(event.locals.token));
+    if (!event.locals.token && !event.locals.XSRF) {
         try {
             const url = dev ? env.LOCAL_API_URL : env.PROD_API_URL;
-            const response = await fetch(`${url}/login`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    email: env.LOGIN_EMAIL, // Use environment variables for credentials
-                    password: env.LOGIN_PASSWORD
-                })
-            });
-
+            const response = await fetch(`${url}/auth`);
             if (!response.ok) {
                 throw error(response.status, 'Login failed');
-            } 
-
-            const session = (await response.json()).data;
-            if (!('accessToken' in session) || !('userDetails' in session)) {
-                throw error(401, 'Unauthorized');
             }
+            const data = await response.json()
+            const cookies = response.headers.getSetCookie()
+            const locals = await parseAuthCookie(cookies, event.cookies)
+            // console.log({ cookies, data })
+            if (!locals) throw error(401, 'Unauthorized');
 
-            const jwtPayload = parseJwt(session.accessToken);
-            if (jwtPayload && jwtPayload.exp) {
-                const currentTime = Math.floor(Date.now() / 1000); // Current time in seconds
-                const maxAge = jwtPayload.exp - currentTime; // Remaining time in seconds
-                
-                if (maxAge > 0) {
-                    event.cookies.set('auth_token', session.accessToken, {
-                        path: '/',
-                        maxAge: maxAge, // Use the JWT expiration for the cookie maxAge
-                        sameSite: 'strict',
-                        httpOnly: true,
-                        secure: true
-                    });
-                }
-
-            } else {
-                throw error(401, 'Invalid token');
-            }
-
-            event.locals.token = session.accessToken;
-            event.locals.user = session.userDetails;
+            event.locals.token = locals.token;
+            event.locals.XSRF = locals.XSRF;
+            
         } catch (err) {
-            console.error(err); // Log the error for debugging
+            console.error(err);
             throw error(500, 'Internal Server Error');
         }
     }
-
     return event; // Return the modified event
 };
 

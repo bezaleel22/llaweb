@@ -1,35 +1,37 @@
 <script>
-// @ts-nocheck
+  import { enhance } from "$app/forms";
+
+  // @ts-nocheck
   import { onMount } from "svelte";
 
   onMount(() => {
-    document.addEventListener("DOMContentLoaded", function () {
-      var areaOfInterest = document.getElementsByName("sponsor_interest")[0];
-      var amountField = document.querySelector(
-        '.input-field.col-lg-12 textarea[name="sponsor_message"]'
-      );
-      var button = document.querySelector(
-        ".input-field.col-lg-12 button.qu_btn"
-      );
-      console.log(areaOfInterest);
-      areaOfInterest.addEventListener("change", function () {
-        console.log(areaOfInterest.value);
-        if (areaOfInterest.value === "Donation") {
-          amountField.setAttribute("placeholder", "Enter Donation Amount");
-          amountField.setAttribute("type", "number");
-          button.textContent = "Donate Now";
-          console.log("donation");
-        } else {
-          amountField.setAttribute(
-            "placeholder",
-            "Tell Us How You Would Like to Contribute..."
-          );
-          amountField.setAttribute("type", "text");
-          button.textContent = "Connect with Us";
-          console.log("connect");
-        }
-      });
-    });
+    // document.addEventListener("DOMContentLoaded", function () {
+    //   var areaOfInterest = document.getElementsByName("sponsor_interest")[0];
+    //   var amountField = document.querySelector(
+    //     '.input-field.col-lg-12 textarea[name="sponsor_message"]'
+    //   );
+    //   var button = document.querySelector(
+    //     ".input-field.col-lg-12 button.qu_btn"
+    //   );
+    //   console.log(areaOfInterest);
+    //   areaOfInterest.addEventListener("change", function () {
+    //     console.log(areaOfInterest.value);
+    //     if (areaOfInterest.value === "Donation") {
+    //       amountField.setAttribute("placeholder", "Enter Donation Amount");
+    //       amountField.setAttribute("type", "number");
+    //       button.textContent = "Donate Now";
+    //       console.log("donation");
+    //     } else {
+    //       amountField.setAttribute(
+    //         "placeholder",
+    //         "Tell Us How You Would Like to Contribute..."
+    //       );
+    //       amountField.setAttribute("type", "text");
+    //       button.textContent = "Connect with Us";
+    //       console.log("connect");
+    //     }
+    //   });
+    // });
   });
 </script>
 
@@ -39,13 +41,19 @@
       <div class="appointment_form">
         <p>Become a Sponsor</p>
         <h3>Explore Sponsorship Opportunities</h3>
-        <form action="#" method="post" class="row" id="sponsorship_form">
+        <form
+          action="http://localhost/auth/login"
+          method="post"
+          class="row"
+          id="sponsorship_form"
+          use:enhance
+        >
           <div class="input-field col-lg-6">
             <input
               class="required"
               type="text"
-              name="sponsor_name"
-              placeholder="Your Name"
+              name="password"
+              placeholder="Password"
             />
           </div>
           <div class="input-field col-lg-6">
@@ -62,12 +70,12 @@
               name="sponsor_interest"
               style="display: none;"
             >
-              <option selected="selected">Area of Interest</option>
+              <option selected>Area of Interest</option>
               <option>Project Funding</option>
               <option>Donation</option>
               <option>Sponsorship</option>
             </select>
-            <div class="nice-select required" tabindex="0">
+            <div class="nice-select required">
               <span class="current">Area of Interest</span>
               <ul class="list">
                 <li data-value="Area of Interest" class="option selected">

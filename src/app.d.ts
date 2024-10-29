@@ -5,6 +5,7 @@ declare global {
 		// interface Error {}
 		interface Locals {
 			token: string // vendure auth token
+			XSRF: string
 			user?: AuthUser
 		}
 		// interface PageData {}
