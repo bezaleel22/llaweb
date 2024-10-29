@@ -16,7 +16,7 @@
         </div>
         <div class="col-md-5 text-right">
           <p class="breadcrumbs">
-            <a href="https://themewar.com/wp/quera/" rel="v:url"
+            <a href="home" rel="v:url"
               ><i class="twi-home-alt1"></i>Home</a
             ><span>/</span>
             {data.title?.substring(0, 40)}

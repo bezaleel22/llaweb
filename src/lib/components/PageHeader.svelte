@@ -1,36 +1,46 @@
-
 <strong>
-    <header class="header01 isSticky">
-        <div class="container largeContainer">
-            <div class="row">
-                <div class="col-lg-3 col-md-4">
-                    <div class="logo">
-                        <a href="index"><img src="/images/logo2.png" height="100px" width="auto" alt="Dgita"></a>
-                    </div>
-                </div>
-                <div class="col-lg-9 col-md-8">
-                    <div class="topbar">
-                        <p><i class="twi-bolt"></i>Need Help? Call +2348127823406, +2349169801738</p>
-                        <div class="tpRight">
-                            <!-- svelte-ignore a11y-invalid-attribute -->
-                            <a class="lang" href="javascript:void(0);"><i class="twi-globe2"></i>English</a>
-                            <div class="tpSocail">
-                                <!-- svelte-ignore a11y-invalid-attribute -->
-                                <a href="javascript:void(0);"><i class="twi-facebook-f"></i></a>
-                                <!-- svelte-ignore a11y-invalid-attribute -->
-                                <a href="javascript:void(0);"><i class="twi-twitter"></i></a>
-                                <!-- svelte-ignore a11y-invalid-attribute -->
-                                <a href="javascript:void(0);"><i class="twi-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="navbar01">
-                        <nav class="mainMenu">
-                            <ul>
-
-                                <li class=" current-menu-item"><a href="/">Home</a></li>
-                                <li><a href="admission">Admission</a></li>
-                                <!-- <li class="menu-item-has-children">
+  <header class="header01 isSticky">
+    <div class="container largeContainer">
+      <div class="row">
+        <div class="col-lg-3 col-md-4">
+          <div class="logo">
+            <a href="index"
+              ><img
+                src="/images/logo2.png"
+                height="100px"
+                width="auto"
+                alt="Dgita"
+              /></a
+            >
+          </div>
+        </div>
+        <div class="col-lg-9 col-md-8">
+          <div class="topbar">
+            <p>
+              <i class="twi-bolt"></i>Need Help? Call +2348127823406,
+              +2349169801738
+            </p>
+            <div class="tpRight">
+              <!-- svelte-ignore a11y-invalid-attribute -->
+              <a class="lang" href="javascript:void(0);"
+                ><i class="twi-globe2"></i>English</a
+              >
+              <div class="tpSocail">
+                <!-- svelte-ignore a11y-invalid-attribute -->
+                <a href="javascript:void(0);"><i class="twi-facebook-f"></i></a>
+                <!-- svelte-ignore a11y-invalid-attribute -->
+                <a href="javascript:void(0);"><i class="twi-twitter"></i></a>
+                <!-- svelte-ignore a11y-invalid-attribute -->
+                <a href="javascript:void(0);"><i class="twi-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="navbar01">
+            <nav class="mainMenu">
+              <ul>
+                <li class=" current-menu-item"><a href="/">Home</a></li>
+                <li><a href="admission">Admission</a></li>
+                <!-- <li class="menu-item-has-children">
                 <a href="javascript:void(0);">Academics</a>
                 <ul class="sub-menu">
                   <li><a href="admission.php">Admission</a></li>
@@ -40,8 +50,8 @@
                 </ul>
               </li> -->
 
-                                <li><a href="portfolio">Porfolio</a></li>
-                                <!-- <li class="menu-item-has-children">
+                <li><a href="portfolio">Porfolio</a></li>
+                <!-- <li class="menu-item-has-children">
                 <a href="javascript:void(0);">Porfolio</a>
                 <ul class="sub-menu">
                   <li><a href="gallery.php">Sports</a></li>
@@ -49,9 +59,9 @@
                   <li><a href="">Young Inventors Club</a></li>
                 </ul>
               </li> -->
-              <li><a href="blog">Blogs</a></li>
-                                <li><a href="about">About Us</a></li>
-                                <!-- <li class="menu-item-has-children">
+                <li><a href="blog">Blogs</a></li>
+                <li><a href="about">About Us</a></li>
+                <!-- <li class="menu-item-has-children">
                 <a href="javascript:void(0);">About Us</a>
                 <ul class="sub-menu">
                   <li><a href="about.php">About Lighthouse</a></li>
@@ -59,40 +69,41 @@
                 </ul>
               </li> -->
 
-                                <li><a href="contact">Contact</a></li>
-                                <!-- <li><a href="lla_news.php">Blog</a></li> -->
+                <li><a href="contact">Contact</a></li>
+                <!-- <li><a href="lla_news.php">Blog</a></li> -->
+              </ul>
+            </nav>
+            <div class="accessNav">
+              <!-- svelte-ignore a11y-invalid-attribute -->
+              <a href="javascript:void(0);" class="menuToggler"
+                ><i class="twi-bars1"></i></a
+              >
 
-                            </ul>
-                        </nav>
-                        <div class="accessNav">
-                            <!-- svelte-ignore a11y-invalid-attribute -->
-                            <a href="javascript:void(0);" class="menuToggler"><i class="twi-bars1"></i></a>
-
-                            <!-- svelte-ignore a11y-invalid-attribute -->
-                            <a href="" class="qu_btn">Student portal</a>
-                        </div>
-                    </div>
-                </div>
+              <!-- svelte-ignore a11y-invalid-attribute -->
+              <a href="" class="qu_btn">Student portal</a>
             </div>
+          </div>
         </div>
-    </header>
+      </div>
+    </div>
+  </header>
 
-
-    <section class="sidebarMenu">
-        <div class="sidebarMenuOverlay"></div>
-        <div class="SMArea">
-            <div class="SMAHeader">
-                <h3>
-                    <i class="twi-bars1"></i> Menu
-                </h3>
-                <a href="javascript:void(0);" class="SMACloser"><i class="twi-times2"></i></a>
-            </div>
-            <div class="SMABody">
-                <ul>
-
-                    <li class=" current-menu-item"><a href="index">Home</a></li>
-                    <li><a href="admission">Admission</a></li>
-                    <!-- <li class="menu-item-has-children">
+  <section class="sidebarMenu">
+    <div class="sidebarMenuOverlay"></div>
+    <div class="SMArea">
+      <div class="SMAHeader">
+        <h3>
+          <i class="twi-bars1"></i> Menu
+        </h3>
+        <a href="javascript:void(0);" class="SMACloser"
+          ><i class="twi-times2"></i></a
+        >
+      </div>
+      <div class="SMABody">
+        <ul>
+          <li class=" current-menu-item"><a href="index">Home</a></li>
+          <li><a href="admission">Admission</a></li>
+          <!-- <li class="menu-item-has-children">
                 <a href="javascript:void(0);">Academics</a>
                 <ul class="sub-menu">
                   <li><a href="admission.php">Admission</a></li>
@@ -102,8 +113,8 @@
                 </ul>
               </li> -->
 
-                    <li><a href="portfolio">Porfolio</a></li>
-                    <!-- <li class="menu-item-has-children">
+          <li><a href="portfolio">Porfolio</a></li>
+          <!-- <li class="menu-item-has-children">
                 <a href="javascript:void(0);">Porfolio</a>
                 <ul class="sub-menu">
                   <li><a href="gallery.php">Sports</a></li>
@@ -111,11 +122,9 @@
                   <li><a href="">Young Inventors Club</a></li>
                 </ul>
               </li> -->
-              <li><a href="blog">Blogs</a></li>
-              <li><a href="article">Articles</a></li>
-              <li><a href="articles">MarkedDown</a></li>
-                    <li><a href="about">About Us</a></li>
-                    <!-- <li class="menu-item-has-children">
+          <li><a href="blog">Blogs</a></li>
+          <li><a href="about">About Us</a></li>
+          <!-- <li class="menu-item-has-children">
                 <a href="javascript:void(0);">About Us</a>
                 <ul class="sub-menu">
                   <li><a href="about.php">About Lighthouse</a></li>
@@ -123,12 +132,10 @@
                 </ul>
               </li> -->
 
-                    <li><a href="contact">Contact</a></li>
-                    <!-- <li><a href="lla_news.php">Blog</a></li> -->
-
-                </ul>
-            </div>
-        </div>
-    </section>
-
+          <li><a href="contact">Contact</a></li>
+          <!-- <li><a href="lla_news.php">Blog</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </section>
 </strong>
