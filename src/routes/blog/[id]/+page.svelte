@@ -16,8 +16,7 @@
         </div>
         <div class="col-md-5 text-right">
           <p class="breadcrumbs">
-            <a href="home" rel="v:url"
-              ><i class="twi-home-alt1"></i>Home</a
+            <a href="home" rel="v:url"><i class="twi-home-alt1"></i>Home</a
             ><span>/</span>
             {data.title?.substring(0, 40)}
           </p>
@@ -154,13 +153,10 @@
                         id="div-comment-5"
                         class="comment-body single_comment clearfix"
                       >
-                        <img
-                          src={data.image}
-                          alt={data.author}
-                        />
+                        <img src={data.image} alt={data.author} />
                         <span class="cm_date">{data.date}</span>
                         <h4 class="cm_author">
-                          <a href="javascript:void(0);">{data.author}</a>
+                          <a href=" ">{data.author}</a>
                         </h4>
                         <div class="sc_content">
                           <p>
@@ -197,7 +193,7 @@
                             />
                             <span class="cm_date">January 25, 2022</span>
                             <h4 class="cm_author">
-                              <a href="javascript:void(0);">Jasmine Yulk</a>
+                              <a href=" ">Jasmine Yulk</a>
                             </h4>
                             <div class="sc_content">
                               <p>
@@ -235,7 +231,7 @@
                         />
                         <span class="cm_date">January 25, 2022</span>
                         <h4 class="cm_author">
-                          <a href="javascript:void(0);">Jasmine Yulk</a>
+                          <a href=" ">Jasmine Yulk</a>
                         </h4>
                         <div class="sc_content">
                           <p>
@@ -280,7 +276,7 @@
                       method="post"
                       id="comment_form"
                       class="commentForm row"
-                      novalidate=""
+                      novalidate
                     >
                       <div class="col-md-12">
                         <i class="twi-pen2"></i><textarea
@@ -289,7 +285,7 @@
                           name="comment"
                           placeholder="Write a Comment"
                           aria-required="true"
-                          required="required"
+                          required
                         ></textarea>
                       </div>
                       <div class="col-md-6 clearfix">
@@ -375,12 +371,14 @@
                     value=""
                     type="search"
                     name="s"
-                    required=""
-                  /><button
+                    required
+                  />
+                  <button
                     aria-label="Search"
                     class="wp-block-search__button has-icon wp-element-button"
                     type="submit"
-                    ><svg
+                  >
+                    <svg
                       class="search-icon"
                       viewBox="0 0 24 24"
                       width="24"
@@ -389,8 +387,8 @@
                       <path
                         d="M13 5c-3.3 0-6 2.7-6 6 0 1.4.5 2.7 1.3 3.7l-3.8 3.8 1.1 1.1 3.8-3.8c1 .8 2.3 1.3 3.7 1.3 3.3 0 6-2.7 6-6S16.3 5 13 5zm0 10.5c-2.5 0-4.5-2-4.5-4.5s2-4.5 4.5-4.5 4.5 2 4.5 4.5-2 4.5-4.5 4.5z"
                       ></path>
-                    </svg></button
-                  >
+                    </svg>
+                  </button>
                 </div>
               </form>
             </aside>
