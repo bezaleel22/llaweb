@@ -1,16 +1,9 @@
-<<<<<<< HEAD
-<section
-  class="page_banner"
-  style="background-image: url(images/bg/banner.jpg);"
->
-=======
 <script>
   import { blogs } from "$lib/data/blog";
 </script>
 
 <section class="page_banner blog_page_banner" style="">
   <div class="boverlay" style=""></div>
->>>>>>> e715538f85aa07007725b5e29f709830bf4d443d
   <div class="container largeContainer">
     <div class="row">
       <div class="col-md-7">
@@ -26,8 +19,6 @@
     </div>
   </div>
 </section>
-<<<<<<< HEAD
-=======
 
 <section class="blogPage">
   <div class="container largeContainer">
@@ -248,4 +239,3 @@
     </div>
   </div>
 </section>
->>>>>>> e715538f85aa07007725b5e29f709830bf4d443d
