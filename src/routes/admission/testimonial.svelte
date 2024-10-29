@@ -43,12 +43,12 @@
                     <div class="owl-stage" style="transform: translate3d(0px, 0px, 0px); transition: all 0s ease 0s; width: 1667px;">
                         <div class="owl-item active" style="width: 386.667px; margin-right: 30px;">
                             <div class="testiItem01">
-                                <img src="images/home1/quote.png" alt="">
+                                <img src="/images/home1/quote.png" alt="">
                                 <p class="quotation">
                                     "Grateful for my children's values, academic dedication, and godly spirit nurtured effortlessly at Lighthouse Leading Academy. Truly a blessing."
                                 </p>
                                 <div class="ts_author">
-                                    <img src="images/home1/t1.jpg" alt="">
+                                    <img src="/images/home1/t1.jpg" alt="">
                                     <h5>Mrs Peace C. Ati</h5>
                                     <span>Parent of EYFS Student</span>
                                 </div>
@@ -56,12 +56,12 @@
                         </div>
                         <div class="owl-item active" style="width: 386.667px; margin-right: 30px;">
                             <div class="testiItem01">
-                                <img src="images/home1/quote.png" alt="">
+                                <img src="/images/home1/quote.png" alt="">
                                 <p class="quotation">
                                     "Lighthouse Leading Academy is a sanctuary for education, brilliantly dispelling darkness with intellectual rigor, Christian values, and character growth—a radiant beacon of hope."
                                 </p>
                                 <div class="ts_author">
-                                    <img src="images/home1/t2.jpg" alt="">
+                                    <img src="/images/home1/t2.jpg" alt="">
                                     <h5>Mrs Josephine Ityav</h5>
                                     <span>Parent in Grader</span>
                                 </div>
@@ -69,12 +69,12 @@
                         </div>
                         <div class="owl-item active" style="width: 386.667px; margin-right: 30px;">
                             <div class="testiItem01">
-                                <img src="images/home1/quote.png" alt="">
+                                <img src="/images/home1/quote.png" alt="">
                                 <p class="quotation">
                                     "Light House Leading Academy excels in countering wrong education, instilling Christian values, and fostering character development, a beacon of enlightenment."
                                 </p>
                                 <div class="ts_author">
-                                    <img src="images/home1/t3.jpg" alt="">
+                                    <img src="/images/home1/t3.jpg" alt="">
                                     <h5>Dr. Iorfa Tor-Anyin</h5>
                                     <span>Parent in EYFS and Grader</span>
                                 </div>
@@ -82,12 +82,12 @@
                         </div>
                         <div class="owl-item active" style="width: 386.667px; margin-right: 30px;">
                             <div class="testiItem01">
-                                <img src="images/home1/quote.png" alt="">
+                                <img src="/images/home1/quote.png" alt="">
                                 <p class="quotation">
                                    "In the realm of education, Lighthouse Leading Academy outshines, fostering excellence, instilling Christian values, and molding character—an unrivaled beacon."
                                 </p>
                                 <div class="ts_author">
-                                    <img src="images/home1/t4.jpg" alt="">
+                                    <img src="/images/home1/t4.jpg" alt="">
                                     <h5>Mrs. Paulina Isaac</h5>
                                     <span>Parent in EYFS</span>
                                 </div>

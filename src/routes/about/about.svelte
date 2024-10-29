@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-lg-6">
             <div class="absThumb">
-                <img src="assets/images/home3/1.png" alt="">
+                <img src="/images/home3/1.png" alt="">
             </div>
         </div>
         <div class="col-lg-6">
@@ -26,7 +26,7 @@
                 </p>
 
                 <div class="hpAuthor">
-                    <img class="author" src="assets/images/about/1.png" alt="">
+                    <img class="author" src="/images/about/1.png" alt="">
                     <p>Need help? Contact Us</p>
                     <h3>+2349169801738</h3>
                 </div>

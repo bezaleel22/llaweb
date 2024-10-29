@@ -1,19 +1,3 @@
-<div class="preloader clock text-center">
-    <div class="queraLoader">
-        <div class="loaderO">
-            <span>L</span>
-            <span>I</span>
-            <span>G</span>
-            <span>H</span>
-            <span>T</span> <br/>
-            <span>H</span>
-            <span>O</span>
-            <span>U</span>
-            <span>S</span>
-            <span>E</span>
-        </div>
-    </div>
-</div>
 
 <strong>
     <header class="header01 isSticky">
@@ -21,7 +5,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-4">
                     <div class="logo">
-                        <a href="index"><img src="images/logo2.png" height="100px" width="auto" alt="Dgita"></a>
+                        <a href="index"><img src="/images/logo2.png" height="100px" width="auto" alt="Dgita"></a>
                     </div>
                 </div>
                 <div class="col-lg-9 col-md-8">
@@ -44,7 +28,7 @@
                         <nav class="mainMenu">
                             <ul>
 
-                                <li class=" current-menu-item"><a href="index">Home</a></li>
+                                <li class=" current-menu-item"><a href="/">Home</a></li>
                                 <li><a href="admission">Admission</a></li>
                                 <!-- <li class="menu-item-has-children">
                 <a href="javascript:void(0);">Academics</a>
@@ -65,6 +49,7 @@
                   <li><a href="">Young Inventors Club</a></li>
                 </ul>
               </li> -->
+              <li><a href="blog">Blogs</a></li>
                                 <li><a href="about">About Us</a></li>
                                 <!-- <li class="menu-item-has-children">
                 <a href="javascript:void(0);">About Us</a>
@@ -126,6 +111,9 @@
                   <li><a href="">Young Inventors Club</a></li>
                 </ul>
               </li> -->
+              <li><a href="blog">Blogs</a></li>
+              <li><a href="article">Articles</a></li>
+              <li><a href="articles">MarkedDown</a></li>
                     <li><a href="about">About Us</a></li>
                     <!-- <li class="menu-item-has-children">
                 <a href="javascript:void(0);">About Us</a>

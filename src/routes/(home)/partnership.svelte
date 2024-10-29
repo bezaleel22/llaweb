@@ -150,8 +150,8 @@
           </div>
         </div>
         <div class="hpAuthor">
-          <img class="author" src="images/home3/author.png" alt="" />
-          <img width="100" src="images/home3/sign_light.webp" alt="" />
+          <img class="author" src="/images/home3/author.png" alt="" />
+          <img width="100" src="/images/home3/sign_light.webp" alt="" />
           <strong>
             <div class="">Rev. Dinna Osayi – <span>Founder</span></div>
           </strong>

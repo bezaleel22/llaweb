@@ -145,6 +145,7 @@
             </div>
         </div>
     </section>
+
     <section class="testimonialSection01">
         <div class="container largeContainer">
             <div class="row">
@@ -250,6 +251,7 @@
             </div>
         </div>
     </section>
+
     <section class="portfolioSection01">
         <div class="folioSlider01 owl-carousel owl-loaded owl-drag" >
             <div class="owl-stage-outer">
@@ -348,6 +350,7 @@
             </div>
         </div>
     </section>
+
     <section class="serviceSection01">
         <div class="container largeContainer">
             <div class="row">
@@ -430,6 +433,7 @@
             </div>
         </div>
     </section>
+    
     <section class="appoinmentSection01">
         <div id="application" class="container largeContainer">
             <div class="row">

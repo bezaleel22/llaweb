@@ -2,8 +2,8 @@
     <div class="row">
         <div class="col-xl-6">
             <div class="wpProcess">
-                <img src="assets/images/home2/22.avif" alt="">
-                <div class="IconImage"><img src="assets/images/home2/1.png" alt=""></div>
+                <img src="/images/home2/22.avif" alt="">
+                <div class="IconImage"><img src="/images/home2/1.png" alt=""></div>
             </div>
         </div>
         <div class="col-xl-6">

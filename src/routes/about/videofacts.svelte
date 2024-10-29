@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-xl-6">
             <div class="video_banner">
-                <img src="assets/images/slider/3_1.jpg" alt="">
+                <img src="/images/slider/3_1.jpg" alt="">
                 <a href="/" class="popup_video"><i class="twi-play"></i></a>
             </div>
         </div>

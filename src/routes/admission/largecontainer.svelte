@@ -14,7 +14,7 @@
                     <div class="brleft"></div>
                     <div class="brright"></div>
                 </div>
-                <h3><a href="creche.html">Creche</a></h3>
+                <h3><a href="creche">Creche</a></h3>
                 <p>Introduce your little ones to the world of learning in our nurturing Creche program.</p>
                 <a class="sm" href="#application">Request Admission Form<i class="twi-arrow-right1"></i></a>
             </div>

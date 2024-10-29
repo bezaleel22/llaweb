@@ -27,7 +27,7 @@
           </h3>
         </div>
         <div class="blogThumb">
-          <img src="images/blog/1.webp" alt="" />
+          <img src="/images/blog/1.webp" alt="" />
         </div>
       </div>
     </div>
@@ -35,7 +35,7 @@
     <div class="col-lg-4 col-md-6">
       <div class="blogItem03 bborder">
         <div class="blogThumb">
-          <img src="images/blog/2.webp" alt="" />
+          <img src="/images/blog/2.webp" alt="" />
         </div>
         <div class="blogContent">
           <div class="bmeta">
@@ -72,7 +72,7 @@
           </h3>
         </div>
         <div class="blogThumb">
-          <img src="images/blog/3.webp" alt="" />
+          <img src="/images/blog/3.webp" alt="" />
         </div>
       </div>
     </div>

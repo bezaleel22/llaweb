@@ -9,7 +9,7 @@
 
 </script>
 
-<section class="page_banner" style="background-image: url(assets/images/bg/banner.jpg);">
+<section class="page_banner" style="background-image: url(/images/bg/banner.jpg);">
     <Pagebanner />
 </section>
 

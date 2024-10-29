@@ -4,11 +4,11 @@
       <div class="col-lg-12">
         <div class="navbar01">
           <div class="logo">
-            <a href="index.php"><img src="images/logo2.png" alt="Quera" /></a>
+            <a href="/"><img src="/images/logo2.png" alt="Quera" /></a>
           </div>
           <nav class="mainMenu">
             <ul>
-              <li class=" current-menu-item"><a href="/">Home</a></li>
+              <li class=" current-menu-item"><a href="home">Home</a></li>
               <li><a href="admission">Admission</a></li>
               <!-- <li class="menu-item-has-children">
                 <a href="javascript:void(0);">Academics</a>
@@ -29,6 +29,9 @@
                   <li><a href="">Young Inventors Club</a></li>
                 </ul>
               </li> -->
+              <li><a href="blog">Blogs</a></li>
+              <li><a href="article">Articles</a></li>
+              <li><a href="articles">MarkedDown</a></li>
               <li><a href="about">About Us</a></li>
               <!-- <li class="menu-item-has-children">
                 <a href="javascript:void(0);">About Us</a>

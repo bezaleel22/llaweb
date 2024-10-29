@@ -9,7 +9,7 @@
         <div class="col-lg-3 col-md-6">
             <div class="team_01 text-center">
                 <div class="tm_thumb">
-                    <img src="assets/images/team/2.webp" alt="">
+                    <img src="/images/team/2.webp" alt="">
                     <div class="tm_social">
                         <a href="https://www.facebook.com/"><i class="twi-facebook-f"></i></a>
                         <a href="https://linkedin.com/"><i class="twi-linkedin-in"></i></a>
@@ -24,7 +24,7 @@
         <div class="col-lg-3 col-md-6">
             <div class="team_01 text-center">
                 <div class="tm_thumb">
-                    <img src="assets/images/team/1.webp" alt="">
+                    <img src="/images/team/1.webp" alt="">
                     <div class="tm_social">
                         <a href="https://www.facebook.com/"><i class="twi-facebook-f"></i></a>
                         <a href="https://linkedin.com/"><i class="twi-linkedin-in"></i></a>
@@ -39,7 +39,7 @@
         <div class="col-lg-3 col-md-6">
             <div class="team_01 text-center">
                 <div class="tm_thumb">
-                    <img src="assets/images/team/3.webp" alt="">
+                    <img src="/images/team/3.webp" alt="">
                     <div class="tm_social">
                         <a href="https://www.facebook.com/"><i class="twi-facebook-f"></i></a>
                         <a href="https://linkedin.com/"><i class="twi-linkedin-in"></i></a>
@@ -54,7 +54,7 @@
         <div class="col-lg-3 col-md-6">
             <div class="team_01 text-center">
                 <div class="tm_thumb">
-                    <img src="assets/images/team/4.webp" alt="">
+                    <img src="/images/team/4.webp" alt="">
                     <div class="tm_social">
                         <a href="https://www.facebook.com/"><i class="twi-facebook-f"></i></a>
                         <a href="https://linkedin.com/"><i class="twi-linkedin-in"></i></a>
