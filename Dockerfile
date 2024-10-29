@@ -9,6 +9,7 @@ COPY ./package*.json .
 RUN npm install
 
 COPY . .
+RUN npm run build
 RUN npm prune --production
 
 ############################################
@@ -18,11 +19,11 @@ FROM node:lts-alpine as website
 
 WORKDIR /app
 
+
 COPY --from=builder /app/node_modules node_modules
 COPY --from=builder /app/package.json package.json
+COPY --from=builder /app/build build
 
 ENV NODE_ENV=production
-RUN npm run build
-
 EXPOSE 3000
 ENTRYPOINT ["node", "build"]
