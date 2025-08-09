@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-lg-3 col-md-4">
           <div class="logo">
-            <a href="index"
+            <a href="/"
               ><img
                 src="/images/logo2.png"
                 height="100px"
@@ -39,7 +39,7 @@
             <nav class="mainMenu">
               <ul>
                 <li class=" current-menu-item"><a href="/">Home</a></li>
-                <li><a href="admission">Admission</a></li>
+                <li><a href="/admission">Admission</a></li>
                 <!-- <li class="menu-item-has-children">
                 <a href="javascript:void(0);">Academics</a>
                 <ul class="sub-menu">
@@ -50,7 +50,7 @@
                 </ul>
               </li> -->
 
-                <li><a href="portfolio">Porfolio</a></li>
+                <li><a href="/portfolio">Portfolio</a></li>
                 <!-- <li class="menu-item-has-children">
                 <a href="javascript:void(0);">Porfolio</a>
                 <ul class="sub-menu">
@@ -60,7 +60,7 @@
                 </ul>
               </li> -->
                 <!-- <li><a href="blog">Blogs</a></li> -->
-                <li><a href="about">About Us</a></li>
+                <li><a href="/about">About Us</a></li>
                 <!-- <li class="menu-item-has-children">
                 <a href="javascript:void(0);">About Us</a>
                 <ul class="sub-menu">
@@ -69,18 +69,22 @@
                 </ul>
               </li> -->
 
-                <li><a href="contact">Contact</a></li>
+                <li><a href="/contact">Contact</a></li>
                 <!-- <li><a href="lla_news.php">Blog</a></li> -->
               </ul>
             </nav>
             <div class="accessNav">
               <!-- svelte-ignore a11y-invalid-attribute -->
-              <a href="javascript:void(0);" class="menuToggler"
+              <a href="#" class="menuToggler" aria-label="Toggle mobile menu"
                 ><i class="twi-bars1"></i></a
               >
 
               <!-- svelte-ignore a11y-invalid-attribute -->
-              <a href="" class="qu_btn">Student portal</a>
+              <a
+                href="https://school.llacademy.ng/parent-dashboard"
+                target="_blank"
+                class="qu_btn">Student Portal</a
+              >
             </div>
           </div>
         </div>
@@ -95,14 +99,14 @@
         <h3>
           <i class="twi-bars1"></i> Menu
         </h3>
-        <a href="javascript:void(0);" class="SMACloser"
+        <a href="#" class="SMACloser" aria-label="Close menu"
           ><i class="twi-times2"></i></a
         >
       </div>
       <div class="SMABody">
         <ul>
-          <li class=" current-menu-item"><a href="index">Home</a></li>
-          <li><a href="admission">Admission</a></li>
+          <li class=" current-menu-item"><a href="/">Home</a></li>
+          <li><a href="/admission">Admission</a></li>
           <!-- <li class="menu-item-has-children">
                 <a href="javascript:void(0);">Academics</a>
                 <ul class="sub-menu">
@@ -113,7 +117,7 @@
                 </ul>
               </li> -->
 
-          <li><a href="portfolio">Porfolio</a></li>
+          <li><a href="/portfolio">Portfolio</a></li>
           <!-- <li class="menu-item-has-children">
                 <a href="javascript:void(0);">Porfolio</a>
                 <ul class="sub-menu">
@@ -122,8 +126,7 @@
                   <li><a href="">Young Inventors Club</a></li>
                 </ul>
               </li> -->
-          <li><a href="blog">Blogs</a></li>
-          <li><a href="about">About Us</a></li>
+          <li><a href="/about">About Us</a></li>
           <!-- <li class="menu-item-has-children">
                 <a href="javascript:void(0);">About Us</a>
                 <ul class="sub-menu">
@@ -132,7 +135,7 @@
                 </ul>
               </li> -->
 
-          <li><a href="contact">Contact</a></li>
+          <li><a href="/contact">Contact</a></li>
           <!-- <li><a href="lla_news.php">Blog</a></li> -->
         </ul>
       </div>

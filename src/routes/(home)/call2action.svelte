@@ -4,11 +4,11 @@
                 <div class="col-md-7">
                     <div class="ctaText">
                         <i class="twi-exclamation-triangle2"></i>If You Want To Get A Personal Consultant, No Worry!
-                        <a href="contact.html">Get A Consultant<i class="twi-arrow-right1"></i></a>
+                        <a href="/contact">Get A Consultant<i class="twi-arrow-right1"></i></a>
                     </div>
                 </div>
                 <!-- <div class="col-md-5 text-right">
-                    <a class="qu_btn" href="contact.html">Request For Services</a>
+                    <a class="qu_btn" href="/contact">Request For Services</a>
                 </div> -->
             </div>
         </div>

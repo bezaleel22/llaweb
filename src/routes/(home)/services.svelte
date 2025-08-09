@@ -14,7 +14,9 @@
         <div class="srThumb">
           <img src="/images/home3/s1.jpg" alt="" />
         </div>
-        <h3><a href="https://llacademy.ng/parent-dashboard">e-Portal</a></h3>
+        <h3>
+          <a href="https://school.llacademy.ng/parent-dashboard">e-Portal</a>
+        </h3>
         <p>
           Access the e-Portal for a seamless connection to academic and
           administrative resources.
@@ -27,7 +29,7 @@
         <div class="srThumb">
           <img src="/images/home3/s2.jpg" alt="" />
         </div>
-        <h3><a href="single-service.html">Admission</a></h3>
+        <h3><a href="/admission">Admission</a></h3>
         <p>
           Explore admission procedures and requirements to join our esteemed
           educational community.
@@ -40,7 +42,7 @@
         <div class="srThumb">
           <img src="/images/home3/s3.jpg" alt="" />
         </div>
-        <h3><a href="single-service.html">News & Events </a></h3>
+        <h3><a href="/contact">Student Support</a></h3>
         <p>
           Stay updated on the latest news and events shaping the vibrant
           Lighthouse Leading Academy community.
@@ -53,7 +55,7 @@
       <p class="secDesc">Have a question? check our guide</p>
       <h4>Get answers in a few minutes</h4>
       <div class="clearfix"></div>
-      <a class="qu_btn" href="contact.php">Contact Us</a>
+      <a class="qu_btn" href="/contact">Contact Us</a>
     </div>
   </div>
 </div>

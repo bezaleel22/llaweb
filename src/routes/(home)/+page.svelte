@@ -1,7 +1,7 @@
 <script lang="ts">
   import type { PageData } from "./$types";
   import About from "./about.svelte";
-  import Blogs from "./blogs.svelte";
+  import Features from "./blogs.svelte";
   import Call2action from "./call2action.svelte";
   import Partnership from "./partnership.svelte";
   import Potfolio from "./potfolio.svelte";
@@ -61,5 +61,5 @@
 </section>
 
 <section class="blogSectiont03">
-  <Blogs blogs={data.blogs} />
+  <Features />
 </section>

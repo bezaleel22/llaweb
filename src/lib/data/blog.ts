@@ -1,4 +1,18 @@
-export const blogs = [
+export interface Blog {
+  id: number;
+  title: string;
+  author: string;
+  views: number;
+  comments: number;
+  date: string;
+  image: string;
+  description: string;
+  link: string;
+  quotes: string[];
+  tags: string[];
+}
+
+export const blogs: Blog[] = [
   {
     "id": 1,
     "title": "Efficiently monetize models transparent sources redefine distributed",

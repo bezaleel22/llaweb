@@ -8,8 +8,8 @@
           </div>
           <nav class="mainMenu">
             <ul>
-              <li class=" current-menu-item"><a href="home">Home</a></li>
-              <li><a href="admission">Admission</a></li>
+              <li class=" current-menu-item"><a href="/">Home</a></li>
+              <li><a href="/admission">Admission</a></li>
               <!-- <li class="menu-item-has-children">
                 <a href="javascript:void(0);">Academics</a>
                 <ul class="sub-menu">
@@ -20,7 +20,7 @@
                 </ul>
               </li> -->
 
-              <li><a href="portfolio">Porfolio</a></li>
+              <li><a href="/portfolio">Portfolio</a></li>
               <!-- <li class="menu-item-has-children">
                 <a href="javascript:void(0);">Porfolio</a>
                 <ul class="sub-menu">
@@ -30,7 +30,7 @@
                 </ul>
               </li> -->
               <!-- <li><a href="blog">Blogs</a></li> -->
-              <li><a href="about">About Us</a></li>
+              <li><a href="/about">About Us</a></li>
               <!-- <li class="menu-item-has-children">
                 <a href="javascript:void(0);">About Us</a>
                 <ul class="sub-menu">
@@ -39,14 +39,16 @@
                 </ul>
               </li> -->
 
-              <li><a href="contact">Contact</a></li>
+              <li><a href="/contact">Contact</a></li>
               <!-- <li><a href="lla_news.php">Blog</a></li> -->
             </ul>
           </nav>
           <div class="accessNav">
-            <a href="" class="menuToggler"><i class="twi-bars1"></i></a>
+            <a href="#" class="menuToggler" aria-label="Toggle mobile menu"
+              ><i class="twi-bars1"></i></a
+            >
             <a
-              href="https://llacademy.ng/parent-dashboard"
+              href="https://school.llacademy.ng/parent-dashboard"
               target="_blank"
               class="qu_btn">Student Portal</a
             >
@@ -70,7 +72,7 @@
               <h3>+2349169801738</h3>
             </div>
             <div class="searchBtn">
-              <a href="javascript:void(0);"><i class="twi-search2"></i></a>
+              <a href="#" aria-label="Search"><i class="twi-search2"></i></a>
               <div class="header01SearchBar">
                 <form class="d-flex" method="post" action="#">
                   <input type="search" name="s" placeholder="Search Here..." />
@@ -92,14 +94,14 @@
       <h3>
         <i class="twi-bars1"></i> Menu
       </h3>
-      <a href="javascript:void(0);" class="SMACloser"
+      <a href="#" class="SMACloser" aria-label="Close menu"
         ><i class="twi-times2"></i></a
       >
     </div>
     <div class="SMABody">
       <ul>
-        <li class=" current-menu-item"><a href="index">Home</a></li>
-        <li><a href="admission">Admission</a></li>
+        <li class=" current-menu-item"><a href="/">Home</a></li>
+        <li><a href="/admission">Admission</a></li>
         <!-- <li class="menu-item-has-children">
                 <a href="javascript:void(0);">Academics</a>
                 <ul class="sub-menu">
@@ -110,7 +112,7 @@
                 </ul>
               </li> -->
 
-        <li><a href="portfolio">Porfolio</a></li>
+        <li><a href="/portfolio">Portfolio</a></li>
         <!-- <li class="menu-item-has-children">
                 <a href="javascript:void(0);">Porfolio</a>
                 <ul class="sub-menu">
@@ -119,7 +121,7 @@
                   <li><a href="">Young Inventors Club</a></li>
                 </ul>
               </li> -->
-        <li><a href="about">About Us</a></li>
+        <li><a href="/about">About Us</a></li>
         <!-- <li class="menu-item-has-children">
                 <a href="javascript:void(0);">About Us</a>
                 <ul class="sub-menu">
@@ -128,11 +130,11 @@
                 </ul>
               </li> -->
 
-        <li><a href="contact">Contact</a></li>
+        <li><a href="/contact">Contact</a></li>
         <!-- <li><a href="lla_news.php">Blog</a></li> -->
 
         <a
-          href="https://llacademy.ng/parent-dashboard"
+          href="https://school.llacademy.ng/parent-dashboard"
           target="_blank"
           class="qu_btn mx-auto">Student Portal</a
         >

@@ -13,7 +13,7 @@
         blend of spiritual and academic heritage, offering abundant
         opportunities for the maximization of your potential.
       </p>
-      <p><a class="qu_btn" href="about.php">About Us</a></p>
+      <p><a class="qu_btn" href="/about">About Us</a></p>
       <div class="row">
         <div class="col-md-5">
           <div class="fact_01">

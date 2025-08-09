@@ -11,9 +11,9 @@
                 <div class="tm_thumb">
                     <img src="/images/team/2.webp" alt="">
                     <div class="tm_social">
-                        <a href="https://www.facebook.com/"><i class="twi-facebook-f"></i></a>
+                        <a href="javascript:void(0);"><i class="twi-facebook-f"></i></a>
                         <a href="https://linkedin.com/"><i class="twi-linkedin-in"></i></a>
-                        <a href="https://twitter.com/"><i class="twi-twitter"></i></a>
+                        <a href="javascript:void(0);"><i class="twi-twitter"></i></a>
                     </div>
                     <a class="tmsToggle" href="javascript:void(0);">+</a>
                 </div>
@@ -26,9 +26,9 @@
                 <div class="tm_thumb">
                     <img src="/images/team/1.webp" alt="">
                     <div class="tm_social">
-                        <a href="https://www.facebook.com/"><i class="twi-facebook-f"></i></a>
+                        <a href="javascript:void(0);"><i class="twi-facebook-f"></i></a>
                         <a href="https://linkedin.com/"><i class="twi-linkedin-in"></i></a>
-                        <a href="https://twitter.com/"><i class="twi-twitter"></i></a>
+                        <a href="javascript:void(0);"><i class="twi-twitter"></i></a>
                     </div>
                     <a class="tmsToggle" href="javascript:void(0);">+</a>
                 </div>
@@ -41,9 +41,9 @@
                 <div class="tm_thumb">
                     <img src="/images/team/3.webp" alt="">
                     <div class="tm_social">
-                        <a href="https://www.facebook.com/"><i class="twi-facebook-f"></i></a>
+                        <a href="javascript:void(0);"><i class="twi-facebook-f"></i></a>
                         <a href="https://linkedin.com/"><i class="twi-linkedin-in"></i></a>
-                        <a href="https://twitter.com/"><i class="twi-twitter"></i></a>
+                        <a href="javascript:void(0);"><i class="twi-twitter"></i></a>
                     </div>
                     <a class="tmsToggle" href="javascript:void(0);">+</a>
                 </div>
@@ -56,9 +56,9 @@
                 <div class="tm_thumb">
                     <img src="/images/team/4.webp" alt="">
                     <div class="tm_social">
-                        <a href="https://www.facebook.com/"><i class="twi-facebook-f"></i></a>
+                        <a href="javascript:void(0);"><i class="twi-facebook-f"></i></a>
                         <a href="https://linkedin.com/"><i class="twi-linkedin-in"></i></a>
-                        <a href="https://twitter.com/"><i class="twi-twitter"></i></a>
+                        <a href="javascript:void(0);"><i class="twi-twitter"></i></a>
                     </div>
                     <a class="tmsToggle" href="javascript:void(0);">+</a>
                 </div>

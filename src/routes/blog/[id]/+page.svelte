@@ -1,5 +1,6 @@
 <script lang="ts">
   import type { PageData } from "./$types";
+  import { page } from '$app/stores';
 
   export let data: PageData;
 </script>
@@ -16,7 +17,7 @@
         </div>
         <div class="col-md-5 text-right">
           <p class="breadcrumbs">
-            <a href="home" rel="v:url"><i class="twi-home-alt1"></i>Home</a
+            <a href="/" rel="v:url"><i class="twi-home-alt1"></i>Home</a
             ><span>/</span>
             {data.title?.substring(0, 40)}
           </p>
@@ -101,22 +102,26 @@
                     <a
                       class="fac"
                       target="_blank"
-                      href="https://www.facebook.com/sharer.php?u=https://themewar.com/wp/quera/2022/01/25/how-to-optimize-your-seo-marketing-strategy-search-engine-optimization/&amp;title=http://How%20to%20Optimize%20Your%20SEO%20Marketing%20Strategy%20Search%20Engine%20Optimization"
+                      href="https://www.facebook.com/sharer/sharer.php?u={encodeURIComponent(`${$page.url.origin}/blog/${data.id}`)}"
+                      rel="noopener noreferrer"
                       ><i class="twi-facebook-f"></i></a
                     ><a
                       class="twi"
                       target="_blank"
-                      href="https://twitter.com/intent/tweet?url=https://themewar.com/wp/quera/2022/01/25/how-to-optimize-your-seo-marketing-strategy-search-engine-optimization/&amp;text=http://How%20to%20Optimize%20Your%20SEO%20Marketing%20Strategy%20Search%20Engine%20Optimization"
+                      href="https://twitter.com/intent/tweet?url={encodeURIComponent(`${$page.url.origin}/blog/${data.id}`)}&text={encodeURIComponent(data.title)}"
+                      rel="noopener noreferrer"
                       ><i class="twi-twitter"></i></a
                     ><a
                       class="lin"
                       target="_blank"
-                      href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://themewar.com/wp/quera/2022/01/25/how-to-optimize-your-seo-marketing-strategy-search-engine-optimization/&amp;title=http://How%20to%20Optimize%20Your%20SEO%20Marketing%20Strategy%20Search%20Engine%20Optimization"
+                      href="https://www.linkedin.com/sharing/share-offsite/?url={encodeURIComponent(`${$page.url.origin}/blog/${data.id}`)}"
+                      rel="noopener noreferrer"
                       ><i class="twi-linkedin-in"></i></a
                     ><a
                       class="pin"
                       target="_blank"
-                      href="https://pinterest.com/pin/create/bookmarklet/?media=https://themewar.com/wp/quera/wp-content/uploads/2022/01/b4.jpg&amp;url=https://themewar.com/wp/quera/2022/01/25/how-to-optimize-your-seo-marketing-strategy-search-engine-optimization/&amp;is_video=false&amp;description=http://How%20to%20Optimize%20Your%20SEO%20Marketing%20Strategy%20Search%20Engine%20Optimization"
+                      href="https://pinterest.com/pin/create/button/?url={encodeURIComponent(`${$page.url.origin}/blog/${data.id}`)}&media={encodeURIComponent(data.image)}&description={encodeURIComponent(data.title)}"
+                      rel="noopener noreferrer"
                       ><i class="twi-pinterest-p"></i></a
                     >
                   </div>
@@ -130,7 +135,7 @@
               />
               <span>Written by</span>
               <h5>
-                <a href="https://themewar.com/wp/quera/author/admin/"
+                <a href="/blog"
                   >David Yulk</a
                 >
               </h5>
@@ -204,7 +209,7 @@
                             <a
                               rel="nofollow"
                               class="comment-reply-link"
-                              href="https://themewar.com/wp/quera/2022/01/25/how-to-optimize-your-seo-marketing-strategy-search-engine-optimization/?replytocom=21#respond"
+                              href="/blog"
                               data-commentid="21"
                               data-postid="30"
                               data-belowelement="div-comment-21"
@@ -243,7 +248,7 @@
                         <a
                           rel="nofollow"
                           class="comment-reply-link"
-                          href="https://themewar.com/wp/quera/2022/01/25/how-to-optimize-your-seo-marketing-strategy-search-engine-optimization/?replytocom=13#respond"
+                          href="/blog"
                           data-commentid="13"
                           data-postid="30"
                           data-belowelement="div-comment-13"
@@ -266,13 +271,13 @@
                         ><a
                           rel="nofollow"
                           id="cancel-comment-reply-link"
-                          href="/wp/quera/2022/01/25/how-to-optimize-your-seo-marketing-strategy-search-engine-optimization/#respond"
+                          href="/blog"
                           style="display:none;">Cancel Reply</a
                         ></small
                       >
                     </h3>
                     <form
-                      action="https://themewar.com/wp/quera/wp-comments-post.php"
+                      action="/blog"
                       method="post"
                       id="comment_form"
                       class="commentForm row"
@@ -353,7 +358,7 @@
               <form
                 role="search"
                 method="get"
-                action="https://themewar.com/wp/quera/"
+                action="/blog"
                 class="wp-block-search__button-outside wp-block-search__icon-button wp-block-search"
               >
                 <label
@@ -429,7 +434,7 @@
               <h3 class="widget_title">Popular Posts</h3>
               <div class="pp_post_item clearfix">
                 <a
-                  href="https://themewar.com/wp/quera/2022/01/25/efficiently-monetize-models-transparent-sources-redefine-distributed/"
+                  href="/blog/1"
                   ><img
                     src="https://themewar.com/wp/quera/wp-content/uploads/2022/01/b1-90x80.jpg"
                     alt="Efficiently monetize models transparent sources redefine distributed"
@@ -437,14 +442,14 @@
                 >
                 <a
                   class="pptitle"
-                  href="https://themewar.com/wp/quera/2022/01/25/efficiently-monetize-models-transparent-sources-redefine-distributed/"
+                  href="/blog/1"
                   >Efficiently monetize models transparent
                 </a>
                 <span><i class="twi-calendar-alt2"></i>Jan 25, 2022</span>
               </div>
               <div class="pp_post_item clearfix">
                 <a
-                  href="https://themewar.com/wp/quera/2022/01/25/how-to-optimize-your-seo-marketing-strategy-search-engine-optimization/"
+                  href="/blog/2"
                   ><img
                     src="https://themewar.com/wp/quera/wp-content/uploads/2022/01/b4-90x80.jpg"
                     alt="How to Optimize Your SEO Marketing Strategy Search Engine Optimization"
@@ -452,14 +457,14 @@
                 >
                 <a
                   class="pptitle"
-                  href="https://themewar.com/wp/quera/2022/01/25/how-to-optimize-your-seo-marketing-strategy-search-engine-optimization/"
+                  href="/blog/2"
                   >How to Optimize Your SEO Marketing Strat</a
                 >
                 <span><i class="twi-calendar-alt2"></i>Jan 25, 2022</span>
               </div>
               <div class="pp_post_item clearfix">
                 <a
-                  href="https://themewar.com/wp/quera/2022/01/25/are-pinterest-stories-right-for-your-marketing-strategy/"
+                  href="/blog/3"
                   ><img
                     src="https://themewar.com/wp/quera/wp-content/uploads/2022/01/b3-90x80.jpg"
                     alt="Are Pinterest Stories Right for Your Marketing Strategy?"
@@ -467,7 +472,7 @@
                 >
                 <a
                   class="pptitle"
-                  href="https://themewar.com/wp/quera/2022/01/25/are-pinterest-stories-right-for-your-marketing-strategy/"
+                  href="/blog/3"
                   >Are Pinterest Stories Right for Your Mar</a
                 >
                 <span><i class="twi-calendar-alt2"></i>Jan 25, 2022</span>

@@ -1,96 +1,71 @@
-<script lang="ts">
-  import { browser } from "$app/environment";
-
-  export let blogs: any[] = [];
-
-  $: if (browser) console.log(blogs);
-</script>
-
 <div class="container largeContainer">
   <div class="row">
     <div class="col-lg-12 text-center">
-      <div class="subTitle">
-        <span class="bleft"></span>News<span class="bright"></span>
-      </div>
-      <h2 class="secTitle">Latest Posts</h2>
+      <div class="subTitle"><span class="bleft"></span>Why Choose Us<span class="bright"></span></div>
+      <h2 class="secTitle">Our <span>Features</span></h2>
     </div>
   </div>
   <div class="row">
-    {#each blogs as blog}
-      <div class="col-lg-4 col-md-6">
-        <div class="blogItem03">
-          <div class="blogContent">
-            <div class="bmeta">
-              <span>
-                <i class="twi-folder2"> </i>
-                <a href="blog1.php">Develop</a>
-              </span>|<span>
-                <i class="twi-user2"></i>
-                <a href="blog1.php">David Smith</a>
-              </span>
-            </div>
-            <h3>
-              <a href="blog/{blog.id}">{blog.news_title}</a>
-            </h3>
-          </div>
-          <div class="blogThumb">
-            <img src="images/blog/1.webp" alt="" />
-          </div>
-          <h3>
-            <a href="blog1.php"
-              >Accounting departments are usually responsible</a
-            >
-          </h3>
-        </div>
+    <div class="col-lg-4 col-md-6">
+      <div class="blog_01">
         <div class="blogThumb">
-          <img src="/images/blog/1.webp" alt="" />
-        </div>
-      </div>
-    {/each}
-
-    <!-- <div class="col-lg-4 col-md-6">
-      <div class="blogItem03 bborder">
-        <div class="blogThumb">
-          <img src="/images/blog/2.webp" alt="" />
+          <img src="/images/home3/1.png" alt="Quality Education" />
         </div>
         <div class="blogContent">
-          <div class="bmeta">
-            <span
-              ><i class="twi-folder2"></i><a href="blog2.php">Marketing</a
-              ></span
-            >|<span
-              ><i class="twi-user2"></i><a href="blog2.php">David Smith</a
-              ></span
-            >
+          <div class="bc_meta">
+            <span>
+              <i class="twi-graduation-cap"> </i>
+              <a href="/about">Education</a>
+            </span>|<span>
+              <i class="twi-user2"></i>
+              <a href="/about">Excellence</a>
+            </span>
           </div>
           <h3>
-            <a href="blog/.php">
-              The accounting department also keeps detailed records</a
-            >
+            <a href="/about">Quality Education & Modern Learning Environment</a>
           </h3>
         </div>
       </div>
     </div>
-
+    
     <div class="col-lg-4 col-md-6">
-      <div class="blogItem03">
+      <div class="blog_01">
+        <div class="blogThumb">
+          <img src="/images/home2/22.avif" alt="Experienced Teachers" />
+        </div>
         <div class="blogContent">
-          <div class="bmeta">
-            <span
-              ><i class="twi-folder2"></i><a href="blog3.php">Develop</a></span
-            >|<span
-              ><i class="twi-user2"></i><a href="blog3.php">David Smith</a
-              ></span
-            >
+          <div class="bc_meta">
+            <span>
+              <i class="twi-users"></i><a href="/about">Faculty</a>
+            </span>|<span>
+              <i class="twi-star"></i><a href="/about">Professional</a>
+            </span>
           </div>
           <h3>
-            <a href="blog3.php">Discovering Sydney’s See Attractions line</a>
+            <a href="/about">Experienced & Dedicated Teaching Staff</a>
           </h3>
         </div>
+      </div>
+    </div>
+    
+    <div class="col-lg-4 col-md-6">
+      <div class="blog_01">
         <div class="blogThumb">
-          <img src="/images/blog/3.webp" alt="" />
+          <img src="/images/folio/1.avif" alt="Student Development" />
+        </div>
+        <div class="blogContent">
+          <div class="bc_meta">
+            <span>
+              <i class="twi-trophy"></i><a href="/about">Achievement</a>
+            </span>|<span>
+              <i class="twi-heart"></i><a href="/about">Care</a>
+            </span>
+          </div>
+          <h3>
+            <a href="/about">Holistic Student Development & Personal Growth</a>
+          </h3>
         </div>
       </div>
-    </div> -->
+    </div>
   </div>
 </div>

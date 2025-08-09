@@ -11,13 +11,13 @@
               <div class="folioItem03">
                 <div class="flThumb">
                   <img loading="lazy" src="/images/folio/1.avif" alt="" />
-                  <a href="single-folio.html">+</a>
+                  <a href="/portfolio">+</a>
                 </div>
                 <div class="folioContent">
-                  <h3><a href="single-folio.html">Growth Instruction</a></h3>
+                  <h3><a href="/portfolio">Growth Instruction</a></h3>
                   <a
                     class="cat"
-                    href="https://themewar.com/html/quera/folio1.html"
+                    href="/portfolio"
                     >Business</a
                   >
                 </div>
@@ -27,13 +27,13 @@
               <div class="folioItem03">
                 <div class="flThumb">
                   <img loading="lazy" src="/images/folio/2.avif" alt="" />
-                  <a href="single-folio.html">+</a>
+                  <a href="/portfolio">+</a>
                 </div>
                 <div class="folioContent">
-                  <h3><a href="single-folio.html">Business Managment</a></h3>
+                  <h3><a href="/portfolio">Business Management</a></h3>
                   <a
                     class="cat"
-                    href="https://themewar.com/html/quera/folio1.html"
+                    href="/portfolio"
                     >Consultancy</a
                   >
                 </div>
@@ -43,13 +43,13 @@
               <div class="folioItem03">
                 <div class="flThumb">
                   <img loading="lazy" src="/images/folio/3.avif" alt="" />
-                  <a href="single-folio.html">+</a>
+                  <a href="/portfolio">+</a>
                 </div>
                 <div class="folioContent">
-                  <h3><a href="single-folio.html">Growth Instruction</a></h3>
+                  <h3><a href="/portfolio">Growth Instruction</a></h3>
                   <a
                     class="cat"
-                    href="https://themewar.com/html/quera/folio1.html"
+                    href="/portfolio"
                     >Business</a
                   >
                 </div>
@@ -59,13 +59,13 @@
               <div class="folioItem03">
                 <div class="flThumb">
                   <img loading="lazy" src="/images/folio/4.avif" alt="" />
-                  <a href="single-folio.html">+</a>
+                  <a href="/portfolio">+</a>
                 </div>
                 <div class="folioContent">
-                  <h3><a href="single-folio.html">Business Managment</a></h3>
+                  <h3><a href="/portfolio">Business Management</a></h3>
                   <a
                     class="cat"
-                    href="https://themewar.com/html/quera/folio1.html"
+                    href="/portfolio"
                     >Consultancy</a
                   >
                 </div>
@@ -75,13 +75,13 @@
               <div class="folioItem03">
                 <div class="flThumb">
                   <img loading="lazy" src="/images/folio/5.avif" alt="" />
-                  <a href="single-folio.html">+</a>
+                  <a href="/portfolio">+</a>
                 </div>
                 <div class="folioContent">
-                  <h3><a href="single-folio.html">Growth Instruction</a></h3>
+                  <h3><a href="/portfolio">Growth Instruction</a></h3>
                   <a
                     class="cat"
-                    href="https://themewar.com/html/quera/folio1.html"
+                    href="/portfolio"
                     >Business</a
                   >
                 </div>
@@ -91,13 +91,13 @@
               <div class="folioItem03">
                 <div class="flThumb">
                   <img loading="lazy" src="/images/folio/6.avif" alt="" />
-                  <a href="single-folio.html">+</a>
+                  <a href="/portfolio">+</a>
                 </div>
                 <div class="folioContent">
-                  <h3><a href="single-folio.html">Business Managment</a></h3>
+                  <h3><a href="/portfolio">Business Management</a></h3>
                   <a
                     class="cat"
-                    href="https://themewar.com/html/quera/folio1.html"
+                    href="/portfolio"
                     >Consultancy</a
                   >
                 </div>
@@ -112,7 +112,7 @@
     <div class="col-lg-9 col-md-8">
       <div class="fThumb">
         <img loading="lazy" src="/images/home3/1.webp" alt="" />
-        <a href="https://themewar.com/html/quera/folio1.html">View</a>
+        <a href="/portfolio">View</a>
       </div>
     </div>
   </div>

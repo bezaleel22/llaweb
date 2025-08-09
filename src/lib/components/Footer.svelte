@@ -39,10 +39,10 @@
         <div class="widget PL28">
           <h3 class="widget_title">Usefull Links</h3>
           <ul class="menu">
-            <li><a href="index">Home</a></li>
-            <li><a href="about">About Us</a></li>
-            <li><a href="academics">academics</a></li>
-            <li><a href="contact">Contact Us</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/contact">Contact Us</a></li>
+            <li><a href="/portfolio">Portfolio</a></li>
             <li><a href="javascript:void(0);">Privacy Policy</a></li>
           </ul>
         </div>
@@ -51,9 +51,9 @@
         <div class="widget PL28">
           <h3 class="widget_title">Admission</h3>
           <ul class="menu">
-            <li><a href="admission">Admission Procedure</a></li>
-            <li><a href="academics">About Us</a></li>
-            <li><a href="contact">contact us</a></li>
+            <li><a href="/admission">Admission Procedure</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/contact">Contact Us</a></li>
             <li><a href="javascript:void(0);">Calender</a></li>
             <li><a href="javascript:void(0);">Privacy Policy</a></li>
           </ul>
@@ -65,9 +65,8 @@
           <h3 class="widget_title">Others</h3>
           <ul class="menu">
             <li><a href="javascript:void(0);">School Portal</a></li>
-            <li><a href="about">About us</a></li>
-
-            <li><a href="contact">Contact Us</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/contact">Contact Us</a></li>
             <li><a href="javascript:void(0);">Privacy Policy</a></li>
           </ul>
         </div>

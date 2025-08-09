@@ -1,5 +1,11 @@
-<script>
-  import { blogs } from "$lib/data/blog";
+<script lang="ts">
+  import type { PageData } from './$types';
+  import type { Blog } from '$lib/data/blog';
+  
+  export let data: PageData;
+  
+  // TypeScript type assertion to ensure blogs property exists
+  $: blogs = (data as { blogs: Blog[] }).blogs || [];
 </script>
 
 <section class="page_banner blog_page_banner" style="">
@@ -11,9 +17,9 @@
       </div>
       <div class="col-md-5 text-right">
         <p class="breadcrumbs">
-          <a href="https://themewar.com/wp/quera/" rel="v:url"
+          <a href="/" rel="v:url"
             ><i class="twi-home-alt1"></i>Home</a
-          ><span>/</span>List Right Sidebar
+          ><span>/</span>Blog & News
         </p>
       </div>
     </div>
@@ -62,15 +68,14 @@
                   >
                   <a
                     class="page-numbers"
-                    href="https://themewar.com/wp/quera/list-right-sidebar/page/2/"
+                    href="/blog"
                     >2</a
                   >
                   <a
                     class="next page-numbers"
-                    href="https://themewar.com/wp/quera/list-right-sidebar/page/2/"
+                    href="/blog"
                     ><i class="twi-angle-double-right1"></i></a
                   >
-                </div>
               </nav>
             </div>
           </div>
@@ -82,7 +87,7 @@
             <form
               role="search"
               method="get"
-              action="https://themewar.com/wp/quera/"
+              action="/blog"
               class="wp-block-search__button-outside wp-block-search__icon-button wp-block-search"
             >
               <label
@@ -120,26 +125,26 @@
             <ul class="clearfix">
               <li class="clearfix">
                 <a
-                  href="https://themewar.com/wp/quera/category/business-growth/"
+                  href="/blog"
                   >Business Growth</a
                 >
                 <span>2</span>
               </li>
               <li class="clearfix">
-                <a href="https://themewar.com/wp/quera/category/financial-work/"
+                <a href="/blog"
                   >Financial Work</a
                 >
                 <span>2</span>
               </li>
               <li class="clearfix">
                 <a
-                  href="https://themewar.com/wp/quera/category/market-strategy/"
+                  href="/blog"
                   >Market Strategy</a
                 >
                 <span>2</span>
               </li>
               <li class="clearfix">
-                <a href="https://themewar.com/wp/quera/category/seo-marketing/"
+                <a href="/blog"
                   >SEO Marketing</a
                 >
                 <span>2</span>
@@ -150,7 +155,7 @@
             <h3 class="widget_title">Popular Posts</h3>
             <div class="pp_post_item clearfix">
               <a
-                href="https://themewar.com/wp/quera/2022/01/25/efficiently-monetize-models-transparent-sources-redefine-distributed/"
+                href="/blog/1"
                 ><img
                   src="https://themewar.com/wp/quera/wp-content/uploads/2022/01/b1-90x80.jpg"
                   alt="Efficiently monetize models transparent sources redefine distributed"
@@ -158,14 +163,14 @@
               >
               <a
                 class="pptitle"
-                href="https://themewar.com/wp/quera/2022/01/25/efficiently-monetize-models-transparent-sources-redefine-distributed/"
+                href="/blog/1"
                 >Efficiently monetize models transparent
               </a>
               <span><i class="twi-calendar-alt2"></i>Jan 25, 2022</span>
             </div>
             <div class="pp_post_item clearfix">
               <a
-                href="https://themewar.com/wp/quera/2022/01/25/how-to-optimize-your-seo-marketing-strategy-search-engine-optimization/"
+                href="/blog/2"
                 ><img
                   src="https://themewar.com/wp/quera/wp-content/uploads/2022/01/b4-90x80.jpg"
                   alt="How to Optimize Your SEO Marketing Strategy Search Engine Optimization"
@@ -173,14 +178,14 @@
               >
               <a
                 class="pptitle"
-                href="https://themewar.com/wp/quera/2022/01/25/how-to-optimize-your-seo-marketing-strategy-search-engine-optimization/"
+                href="/blog/2"
                 >How to Optimize Your SEO Marketing Strat</a
               >
               <span><i class="twi-calendar-alt2"></i>Jan 25, 2022</span>
             </div>
             <div class="pp_post_item clearfix">
               <a
-                href="https://themewar.com/wp/quera/2022/01/25/are-pinterest-stories-right-for-your-marketing-strategy/"
+                href="/blog/3"
                 ><img
                   src="https://themewar.com/wp/quera/wp-content/uploads/2022/01/b3-90x80.jpg"
                   alt="Are Pinterest Stories Right for Your Marketing Strategy?"
@@ -188,7 +193,7 @@
               >
               <a
                 class="pptitle"
-                href="https://themewar.com/wp/quera/2022/01/25/are-pinterest-stories-right-for-your-marketing-strategy/"
+                href="/blog/3"
                 >Are Pinterest Stories Right for Your Mar</a
               >
               <span><i class="twi-calendar-alt2"></i>Jan 25, 2022</span>
@@ -197,37 +202,37 @@
           <aside id="block-8" class="widget widget_block widget_tag_cloud">
             <p class="wp-block-tag-cloud">
               <a
-                href="https://themewar.com/wp/quera/tag/business/"
+                href="/blog"
                 class="tag-cloud-link tag-link-6 tag-link-position-1"
                 style="font-size: 8pt;"
                 aria-label="Business (4 items)">Business</a
               >
               <a
-                href="https://themewar.com/wp/quera/tag/focus/"
+                href="/blog"
                 class="tag-cloud-link tag-link-8 tag-link-position-2"
                 style="font-size: 8pt;"
                 aria-label="Focus (4 items)">Focus</a
               >
               <a
-                href="https://themewar.com/wp/quera/tag/growth/"
+                href="/blog"
                 class="tag-cloud-link tag-link-7 tag-link-position-3"
                 style="font-size: 8pt;"
                 aria-label="Growth (4 items)">Growth</a
               >
               <a
-                href="https://themewar.com/wp/quera/tag/service/"
+                href="/blog"
                 class="tag-cloud-link tag-link-9 tag-link-position-4"
                 style="font-size: 8pt;"
                 aria-label="Service (4 items)">Service</a
               >
               <a
-                href="https://themewar.com/wp/quera/tag/tools/"
+                href="/blog"
                 class="tag-cloud-link tag-link-10 tag-link-position-5"
                 style="font-size: 8pt;"
                 aria-label="Tools (4 items)">Tools</a
               >
               <a
-                href="https://themewar.com/wp/quera/tag/ui-ux/"
+                href="/blog"
                 class="tag-cloud-link tag-link-11 tag-link-position-6"
                 style="font-size: 8pt;"
                 aria-label="UI/UX (4 items)">UI/UX</a

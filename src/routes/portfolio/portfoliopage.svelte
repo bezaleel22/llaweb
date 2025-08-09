@@ -5,7 +5,7 @@
                 <div class="folioItem02">
                     <img src="/images/folio/21.webp" alt="">
                     <div class="folioContent">
-                        <a class="cat" href="https://themewar.com/html/quera/folio1.html">Sport</a>
+                        <a class="cat" href="/portfolio">Sport</a>
                         <h3>Grade 3 Pupils On Sport Activities</h3>
                     </div>
                 </div>
@@ -14,7 +14,7 @@
                 <div class="folioItem02">
                     <img src="/images/folio/31.webp" alt="">
                     <div class="folioContent">
-                        <a class="cat" href="https://themewar.com/html/quera/folio1.html">Scienc and Technology</a>
+                        <a class="cat" href="/portfolio">Science and Technology</a>
                         <h3>Student Experimentin on Copper Oxidation</h3>
                     </div>
                 </div>
@@ -23,7 +23,7 @@
                 <div class="folioItem02">
                     <img src="/images/folio/30.webp" alt="">
                     <div class="folioContent">
-                        <a class="cat" href="https://themewar.com/html/quera/folio1.html">Scienc and Technology</a>
+                        <a class="cat" href="/portfolio">Science and Technology</a>
                         <h3>Students Drawing Schematic Diagrams In the ICT Lab</h3>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
                 <div class="folioItem02">
                     <img src="/images/folio/11.webp" alt="">
                     <div class="folioContent">
-                        <a class="cat" href="https://themewar.com/html/quera/folio1.html">Phisical Education</a>
+                        <a class="cat" href="/portfolio">Physical Education</a>
                         <h3>Nursery pupils on the feild exercing</h3>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
                 <div class="folioItem02">
                     <img src="/images/folio/19.webp" alt="">
                     <div class="folioContent">
-                        <a class="cat" href="https://themewar.com/html/quera/folio1.html">School Premises</a>
+                        <a class="cat" href="/portfolio">School Premises</a>
                         <h3>Early Years Foundation School Building</h3>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                 <div class="folioItem02">
                     <img src="/images/folio/12.webp" alt="">
                     <div class="folioContent">
-                        <a class="cat" href="https://themewar.com/html/quera/folio1.html">Sport</a>
+                        <a class="cat" href="/portfolio">Sport</a>
                         <h3>Football Trainig Among Graders</h3>
                     </div>
                 </div>
@@ -59,7 +59,7 @@
                 <div class="folioItem02">
                     <img src="/images/folio/20.webp" alt="">
                     <div class="folioContent">
-                        <a class="cat" href="https://themewar.com/html/quera/folio1.html">School Premises</a>
+                        <a class="cat" href="/portfolio">School Premises</a>
                         <h3>Primary/Graders School Building</h3>
                     </div>
                 </div>
