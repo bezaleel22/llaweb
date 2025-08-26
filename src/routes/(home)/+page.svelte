@@ -1,5 +1,4 @@
 <script lang="ts">
-  import type { PageData } from "./$types";
   import About from "./about.svelte";
   import Features from "./blogs.svelte";
   import Call2action from "./call2action.svelte";
@@ -9,8 +8,6 @@
   import Slider from "./slider.svelte";
   import Sponsorship from "./sponsorship.svelte";
   import Whyus from "./whyus.svelte";
-
-  export let data: PageData;
 </script>
 
 <section class="slider_03">

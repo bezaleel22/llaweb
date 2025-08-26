@@ -22,16 +22,16 @@
             </p>
             <div class="tpRight">
               <!-- svelte-ignore a11y-invalid-attribute -->
-              <a class="lang" href="javascript:void(0);"
+              <a class="lang" href={"#"}
                 ><i class="twi-globe2"></i>English</a
               >
               <div class="tpSocail">
                 <!-- svelte-ignore a11y-invalid-attribute -->
-                <a href="javascript:void(0);"><i class="twi-facebook-f"></i></a>
+                <a href={"#"}><i class="twi-facebook-f"></i></a>
                 <!-- svelte-ignore a11y-invalid-attribute -->
-                <a href="javascript:void(0);"><i class="twi-twitter"></i></a>
+                <a href={"#"}><i class="twi-twitter"></i></a>
                 <!-- svelte-ignore a11y-invalid-attribute -->
-                <a href="javascript:void(0);"><i class="twi-instagram"></i></a>
+                <a href={"#"}><i class="twi-instagram"></i></a>
               </div>
             </div>
           </div>
@@ -75,7 +75,7 @@
             </nav>
             <div class="accessNav">
               <!-- svelte-ignore a11y-invalid-attribute -->
-              <a href="#" class="menuToggler" aria-label="Toggle mobile menu"
+              <a href={"#"} class="menuToggler" aria-label="Toggle mobile menu"
                 ><i class="twi-bars1"></i></a
               >
 
@@ -99,7 +99,7 @@
         <h3>
           <i class="twi-bars1"></i> Menu
         </h3>
-        <a href="#" class="SMACloser" aria-label="Close menu"
+        <a href={"#"} class="SMACloser" aria-label="Close menu"
           ><i class="twi-times2"></i></a
         >
       </div>

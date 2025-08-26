@@ -5,14 +5,14 @@
       <h3>
         <i class="twi-bars1"></i> Menu
       </h3>
-      <a href="javascript:void(0);" class="SMACloser"
+      <a href={"#"} class="SMACloser"
         ><i class="twi-times2"></i></a
       >
     </div>
     <div class="SMABody">
       <ul>
         <li class="menu-item-has-children current-menu-item">
-          <a href="javascript:void(0);">Home</a>
+          <a href={"#"}>Home</a>
           <ul class="sub-menu">
             <li><a href="/">Home</a></li>
             <li><a href="/">Home</a></li>
@@ -20,17 +20,17 @@
           </ul>
         </li>
         <li class="menu-item-has-children">
-          <a href="javascript:void(0);">About</a>
+          <a href={"#"}>About</a>
           <ul class="sub-menu">
             <li><a href="/about">About</a></li>
             <li><a href="/about">About</a></li>
           </ul>
         </li>
         <li class="menu-item-has-children">
-          <a href="javascript:void(0);">blogs</a>
+          <a href={"#"}>blogs</a>
           <ul class="sub-menu">
             <li class="menu-item-has-children">
-              <a href="javascript:void(0);">Blog List Views</a>
+              <a href={"#"}>Blog List Views</a>
               <ul class="sub-menu">
                 <li><a href="/about">About Us</a></li>
                 <li><a href="/contact">Contact</a></li>
@@ -38,7 +38,7 @@
               </ul>
             </li>
             <li class="menu-item-has-children">
-              <a href="javascript:void(0);">Blog Grid Views</a>
+              <a href={"#"}>Blog Grid Views</a>
               <ul class="sub-menu">
                 <li><a href="/admission">Admission</a></li>
                 <li><a href="/portfolio">Portfolio</a></li>
@@ -49,10 +49,10 @@
           </ul>
         </li>
         <li class="menu-item-has-children">
-          <a href="javascript:void(0);">pages</a>
+          <a href={"#"}>pages</a>
           <ul class="sub-menu">
             <li class="menu-item-has-children">
-              <a href="javascript:void(0);">Services</a>
+              <a href={"#"}>Services</a>
               <ul class="sub-menu">
                 <li><a href="/admission">Services</a></li>
                 <li><a href="/admission">Services</a></li>
@@ -60,7 +60,7 @@
               </ul>
             </li>
             <li class="menu-item-has-children">
-              <a href="javascript:void(0);">Portfolios</a>
+              <a href={"#"}>Portfolios</a>
               <ul class="sub-menu">
                 <li><a href="/portfolio">Portfolio</a></li>
                 <li><a href="/portfolio">Portfolio</a></li>

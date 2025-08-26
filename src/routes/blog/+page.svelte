@@ -3,7 +3,7 @@
   import type { Blog } from '$lib/data/blog';
   
   export let data: PageData;
-  
+
   // TypeScript type assertion to ensure blogs property exists
   $: blogs = (data as { blogs: Blog[] }).blogs || [];
 </script>
@@ -244,3 +244,4 @@
     </div>
   </div>
 </section>
+

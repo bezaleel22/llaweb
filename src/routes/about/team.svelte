@@ -11,13 +11,13 @@
                 <div class="tm_thumb">
                     <img src="/images/team/2.webp" alt="">
                     <div class="tm_social">
-                        <a href="javascript:void(0);"><i class="twi-facebook-f"></i></a>
+                        <a href={"#"}><i class="twi-facebook-f"></i></a>
                         <a href="https://linkedin.com/"><i class="twi-linkedin-in"></i></a>
-                        <a href="javascript:void(0);"><i class="twi-twitter"></i></a>
+                        <a href={"#"}><i class="twi-twitter"></i></a>
                     </div>
-                    <a class="tmsToggle" href="javascript:void(0);">+</a>
+                    <a class="tmsToggle" href={"#"}>+</a>
                 </div>
-                <h3><a href="javascript:void(0);">Abigail Ojone John</a></h3>
+                <h3><a href={"#"}>Abigail Ojone John</a></h3>
                 <p>School Administrator</p>
             </div>
         </div>
@@ -26,13 +26,13 @@
                 <div class="tm_thumb">
                     <img src="/images/team/1.webp" alt="">
                     <div class="tm_social">
-                        <a href="javascript:void(0);"><i class="twi-facebook-f"></i></a>
+                        <a href={"#"}><i class="twi-facebook-f"></i></a>
                         <a href="https://linkedin.com/"><i class="twi-linkedin-in"></i></a>
-                        <a href="javascript:void(0);"><i class="twi-twitter"></i></a>
+                        <a href={"#"}><i class="twi-twitter"></i></a>
                     </div>
-                    <a class="tmsToggle" href="javascript:void(0);">+</a>
+                    <a class="tmsToggle" href={"#"}>+</a>
                 </div>
-                <h3><a href="javascript:void(0);">Charles Moses</a></h3>
+                <h3><a href={"#"}>Charles Moses</a></h3>
                 <p>Human Resource Manager</p>
             </div>
         </div>
@@ -41,13 +41,13 @@
                 <div class="tm_thumb">
                     <img src="/images/team/3.webp" alt="">
                     <div class="tm_social">
-                        <a href="javascript:void(0);"><i class="twi-facebook-f"></i></a>
+                        <a href={"#"}><i class="twi-facebook-f"></i></a>
                         <a href="https://linkedin.com/"><i class="twi-linkedin-in"></i></a>
-                        <a href="javascript:void(0);"><i class="twi-twitter"></i></a>
+                        <a href={"#"}><i class="twi-twitter"></i></a>
                     </div>
-                    <a class="tmsToggle" href="javascript:void(0);">+</a>
+                    <a class="tmsToggle" href={"#"}>+</a>
                 </div>
-                <h3><a href="javascript:void(0);">Patience Okwube</a></h3>
+                <h3><a href={"#"}>Patience Okwube</a></h3>
                 <p>Academics</p>
             </div>
         </div>
@@ -56,13 +56,13 @@
                 <div class="tm_thumb">
                     <img src="/images/team/4.webp" alt="">
                     <div class="tm_social">
-                        <a href="javascript:void(0);"><i class="twi-facebook-f"></i></a>
+                        <a href={"#"}><i class="twi-facebook-f"></i></a>
                         <a href="https://linkedin.com/"><i class="twi-linkedin-in"></i></a>
-                        <a href="javascript:void(0);"><i class="twi-twitter"></i></a>
+                        <a href={"#"}><i class="twi-twitter"></i></a>
                     </div>
-                    <a class="tmsToggle" href="javascript:void(0);">+</a>
+                    <a class="tmsToggle" href={"#"}>+</a>
                 </div>
-                <h3><a href="javascript:void(0);">Onojeta Brown</a></h3>
+                <h3><a href={"#"}>Onojeta Brown</a></h3>
                 <p>IT Department</p>
             </div>
         </div>

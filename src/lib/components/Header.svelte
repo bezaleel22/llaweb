@@ -44,7 +44,7 @@
             </ul>
           </nav>
           <div class="accessNav">
-            <a href="#" class="menuToggler" aria-label="Toggle mobile menu"
+            <a href={"#"} class="menuToggler" aria-label="Toggle mobile menu"
               ><i class="twi-bars1"></i></a
             >
             <a
@@ -72,7 +72,7 @@
               <h3>+2349169801738</h3>
             </div>
             <div class="searchBtn">
-              <a href="#" aria-label="Search"><i class="twi-search2"></i></a>
+              <a href={"#"} aria-label="Search"><i class="twi-search2"></i></a>
               <div class="header01SearchBar">
                 <form class="d-flex" method="post" action="#">
                   <input type="search" name="s" placeholder="Search Here..." />
@@ -94,7 +94,7 @@
       <h3>
         <i class="twi-bars1"></i> Menu
       </h3>
-      <a href="#" class="SMACloser" aria-label="Close menu"
+      <a href={"#"} class="SMACloser" aria-label="Close menu"
         ><i class="twi-times2"></i></a
       >
     </div>

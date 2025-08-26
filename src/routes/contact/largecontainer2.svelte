@@ -19,7 +19,7 @@
             <div class="icon_box_10">
                 <div class="ib_box"><i class="icons-envelope-1"></i></div>
                 <h3>Mail info:</h3>
-                <p><a href="" class="__cf_email__" data-cfemail="">lighthouseleadingacademy@gmail.com
+                <p><a href="mailto:lighthouseleadingacademy@gmail.com" class="__cf_email__" data-cfemail="">lighthouseleadingacademy@gmail.com
 
                     </a><br></p>
             </div>

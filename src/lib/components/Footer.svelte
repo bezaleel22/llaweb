@@ -1,3 +1,4 @@
+
 <footer class="footer_01">
   <div class="container largeContainer">
     <div class="row">
@@ -32,7 +33,7 @@
             No. 20 Genabe Zone, beside Shammah Plaza, Welfare Quarters Makurdi,
             Benue State.
           </p>
-          <a href=""><span class="__cf_email__">support@llacademy.ng</span></a>
+          <a href="mailto:support@llacademy.ng"><span class="__cf_email__">support@llacademy.ng</span></a>
         </div>
       </div>
       <div class="col-md-6 col-lg-3">
@@ -43,7 +44,7 @@
             <li><a href="/about">About Us</a></li>
             <li><a href="/contact">Contact Us</a></li>
             <li><a href="/portfolio">Portfolio</a></li>
-            <li><a href="javascript:void(0);">Privacy Policy</a></li>
+            <li><a href={"#"}>Privacy Policy</a></li>
           </ul>
         </div>
       </div>
@@ -54,8 +55,8 @@
             <li><a href="/admission">Admission Procedure</a></li>
             <li><a href="/about">About Us</a></li>
             <li><a href="/contact">Contact Us</a></li>
-            <li><a href="javascript:void(0);">Calender</a></li>
-            <li><a href="javascript:void(0);">Privacy Policy</a></li>
+            <li><a href={"#"}>Calender</a></li>
+            <li><a href={"#"}>Privacy Policy</a></li>
           </ul>
         </div>
       </div>
@@ -64,10 +65,10 @@
         <div class="widget PL28">
           <h3 class="widget_title">Others</h3>
           <ul class="menu">
-            <li><a href="javascript:void(0);">School Portal</a></li>
+            <li><a href={"#"}>School Portal</a></li>
             <li><a href="/about">About Us</a></li>
             <li><a href="/contact">Contact Us</a></li>
-            <li><a href="javascript:void(0);">Privacy Policy</a></li>
+            <li><a href={"#"}>Privacy Policy</a></li>
           </ul>
         </div>
       </div>
@@ -84,13 +85,14 @@
       <div class="col-md-6">
         <div class="copyMenu">
           <ul>
-            <li><a href="javascript:void(0);">Privacy</a></li>
-            <li><a href="javascript:void(0);">Terms</a></li>
-            <li><a href="javascript:void(0);">Contact</a></li>
-            <li><a href="javascript:void(0);">About</a></li>
+            <li><a href={"#"}>Privacy</a></li>
+            <li><a href={"#"}>Terms</a></li>
+            <li><a href={"#"}>Contact</a></li>
+            <li><a href={"#"}>About</a></li>
           </ul>
         </div>
       </div>
     </div>
   </div>
 </section>
+
