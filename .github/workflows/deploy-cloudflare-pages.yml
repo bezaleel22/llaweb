@@ -12,6 +12,7 @@ on:
 
 env:
   NODE_ENV: production
+  CLOUDFLARE_PROJECT_NAME: edufy
 
 jobs:
   build-and-deploy:
@@ -45,9 +46,7 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: llaweb
+          projectName: ${{ env.CLOUDFLARE_PROJECT_NAME }}
           directory: build
-          # Optional: Set a custom branch name for deployments
           gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-          # Optional: Enable comments on PRs
           wranglerVersion: "3"
