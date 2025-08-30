@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
+    "build:static": "cp svelte.config.static.js svelte.config.js && vite build && git checkout svelte.config.js",
     "preview": "vite preview",
+    "preview:static": "SVELTE_CONFIG=svelte.config.static.js vite preview",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
   },

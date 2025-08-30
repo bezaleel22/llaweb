@@ -1,6 +1,6 @@
-# create-svelte
+# LLA Web
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+A SvelteKit application with dual deployment strategies - Docker containers and static sites.
 
 ## Creating a project
 
@@ -27,12 +27,65 @@ npm run dev -- --open
 
 ## Building
 
-To create a production version of your app:
+This project supports two build modes:
+
+### 1. Node.js Build (for Docker deployment)
 
 ```bash
-npm run build
+bun run build
 ```
 
-You can preview the production build with `npm run preview`.
+### 2. Static Build (for Cloudflare Pages)
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+```bash
+bun run build:static
+```
+
+You can preview builds with `bun run preview`.
+
+## Deployment
+
+### Docker Deployment (GitHub Package Registry)
+
+The project automatically builds and publishes Docker images to GitHub Package Registry when you push to main or create version tags.
+
+**Available images:**
+
+- `ghcr.io/[username]/llaweb:main` (latest main branch)
+- `ghcr.io/[username]/llaweb:v1.0.0` (version tags)
+
+**To run locally:**
+
+```bash
+docker run -p 3000:3000 ghcr.io/[username]/llaweb:main
+```
+
+### Static Site Deployment (Cloudflare Pages)
+
+The project automatically deploys to Cloudflare Pages when you push to main.
+
+**Setup required:**
+
+1. Create a Cloudflare Pages project
+2. Add these secrets to your GitHub repository:
+   - `CLOUDFLARE_API_TOKEN`: Your Cloudflare API token
+   - `CLOUDFLARE_ACCOUNT_ID`: Your Cloudflare account ID
+
+**Manual deployment:**
+
+```bash
+bun run build:static
+# Upload the 'build' directory to your static hosting provider
+```
+
+## Technology Stack
+
+- **Runtime**: Bun (latest)
+- **Framework**: SvelteKit
+- **Adapters**:
+  - `@sveltejs/adapter-node` (Docker)
+  - `@sveltejs/adapter-static` (Static sites)
+- **Deployment**:
+  - GitHub Actions
+  - Docker (GitHub Package Registry)
+  - Cloudflare Pages
