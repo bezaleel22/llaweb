@@ -6,11 +6,11 @@ WORKDIR /app
 
 # BUILD WEBSITE
 COPY ./package*.json ./bun.lockb ./
-RUN bun install --frozen-lockfile
+RUN bun install
 
 COPY . .
 RUN bun run build
-RUN bun install --production --frozen-lockfile
+RUN bun install --production
 
 ############################################
 # Website: Production image website

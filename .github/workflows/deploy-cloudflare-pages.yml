@@ -16,7 +16,11 @@ env:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    permissions:
+    permissions:Run bun install --frozen-lockfile
+bun install v1.2.21 (7c45ed97)
+error: lockfile had changes, but lockfile is frozen
+note: try re-running without --frozen-lockfile and commit the updated lockfile
+Error: Process completed with exit code 1.
       contents: read
       deployments: write
 
@@ -30,7 +34,7 @@ jobs:
           bun-version: latest
 
       - name: Install dependencies
-        run: bun install --frozen-lockfile
+        run: bun install
 
       - name: Build static site
         run: |
