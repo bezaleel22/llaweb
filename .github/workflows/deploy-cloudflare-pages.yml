@@ -16,14 +16,10 @@ env:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    permissions:Run bun install --frozen-lockfile
-bun install v1.2.21 (7c45ed97)
-error: lockfile had changes, but lockfile is frozen
-note: try re-running without --frozen-lockfile and commit the updated lockfile
-Error: Process completed with exit code 1.
+    permissions:
       contents: read
       deployments: write
-
+      
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
