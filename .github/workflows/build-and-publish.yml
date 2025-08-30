@@ -1,4 +1,4 @@
-name: Build and Publish to GitHub Package Registry
+name: Build and Publish to GitHub Package Registry (Bun)
 
 on:
   push:
